@@ -1,0 +1,3152 @@
+<!-- builder -->
+<!DOCTYPE html>
+<html lang='pt-BR'>
+
+<head>
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Makeup - Mariana Saad">
+    <meta name="twitter:title" content="Makeup - Mariana Saad">
+    <meta property="og:site_name" content="Mariana Saad">
+    <meta name="application-name" content="Mariana Saad">
+    <style type="text/css">
+        .modal-open {
+            overflow: hidden
+        }
+
+        .modal {
+            position: fixed;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            z-index: 1040;
+            display: none;
+            overflow: auto;
+            overflow-y: scroll
+        }
+
+        .modal.fade .modal-dialog {
+            -webkit-transform: translate(0, -25%);
+            -ms-transform: translate(0, -25%);
+            transform: translate(0, -25%);
+            -webkit-transition: -webkit-transform .3s ease-out;
+            -moz-transition: -moz-transform .3s ease-out;
+            -o-transition: -o-transform .3s ease-out;
+            transition: transform .3s ease-out
+        }
+
+        .modal.in .modal-dialog {
+            -webkit-transform: translate(0, 0);
+            -ms-transform: translate(0, 0);
+            transform: translate(0, 0)
+        }
+
+        .modal-dialog {
+            position: relative;
+            z-index: 1050;
+            width: auto;
+            margin: 10px
+        }
+
+        .modal-content {
+            position: relative;
+            background-color: #fff;
+            border: 1px solid #999;
+            border: 1px solid rgba(0, 0, 0, 0.2);
+            border-radius: 6px;
+            outline: 0;
+            -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+            box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+            background-clip: padding-box
+        }
+
+        .modal-backdrop {
+            position: fixed;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            z-index: 1030;
+            background-color: #000
+        }
+
+        .modal-backdrop.fade {
+            opacity: 0;
+            filter: alpha(opacity=0)
+        }
+
+        .modal-backdrop.in {
+            opacity: .5;
+            filter: alpha(opacity=50)
+        }
+
+        .modal-header {
+            min-height: 16.428571429px;
+            padding: 15px;
+            border-bottom: 1px solid #e5e5e5
+        }
+
+        .modal-header .close {
+            margin-top: -2px
+        }
+
+        .modal-title {
+            margin: 0;
+            line-height: 1.428571429
+        }
+
+        .modal-body {
+            position: relative;
+            padding: 20px;
+            min-height: 300px
+        }
+
+        .modal-footer {
+            padding: 19px 20px 20px;
+            margin-top: 15px;
+            text-align: right;
+            border-top: 1px solid #e5e5e5
+        }
+
+        .modal-footer:before,
+        .modal-footer:after {
+            display: table;
+            content: " "
+        }
+
+        .modal-footer:after {
+            clear: both
+        }
+
+        .modal-footer:before,
+        .modal-footer:after {
+            display: table;
+            content: " "
+        }
+
+        .modal-footer:after {
+            clear: both
+        }
+
+        .modal-footer .btn+.btn {
+            margin-bottom: 0;
+            margin-left: 5px
+        }
+
+        .modal-footer .btn-group .btn+.btn {
+            margin-left: -1px
+        }
+
+        .modal-footer .btn-block+.btn-block {
+            margin-left: 0
+        }
+
+        @media screen and (min-width:768px) {
+            .modal-dialog {
+                width: 600px;
+                margin: 30px auto
+            }
+
+            .modal-content {
+                -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+                box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5)
+            }
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 6px 12px;
+            margin-bottom: 0;
+            font-size: 14px;
+            font-weight: normal;
+            line-height: 1.428571429;
+            text-align: center;
+            white-space: nowrap;
+            vertical-align: middle;
+            cursor: pointer;
+            background-image: none;
+            border: 1px solid transparent;
+            border-radius: 4px;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            -o-user-select: none;
+            user-select: none
+        }
+
+        .btn-primary {
+            color: #fff;
+            background-color: #428bca;
+            border-color: #357ebd
+        }
+
+        .btn-primary:hover,
+        .btn-primary:focus,
+        .btn-primary:active,
+        .btn-primary.active,
+        .open .dropdown-toggle.btn-primary {
+            color: #fff;
+            background-color: #3276b1;
+            border-color: #285e8e
+        }
+    </style>
+    <title>Makeup - Mariana Saad</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--pageMeta-->
+    <!-- Loading Bootstrap -->
+    <link rel="stylesheet" href="/builder/elements/css/bootstrap.css"><!-- Loading Elements Styles -->
+    <link rel="stylesheet" href="/builder/elements/css/style.css"><!-- Loading Magnific-Popup Styles -->
+    <link href="/Content/font-awesome.css" rel="stylesheet" type="text/css"><!-- Fontawesome atualizado -->
+    <link href="//fonts.googleapis.com/css?family=Roboto:400,300,500,700,900" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="/builder/elements/css/magnific-popup.css"><!-- Loading Font Styles -->
+    <link rel="stylesheet" href="/builder/elements/css/iconfont-style.css"><!-- WOW Animate-->
+    <link rel="stylesheet" href="/builder/elements/scripts/animations/animate.css"><!-- Favicons -->
+    <link rel="stylesheet" href="/builder/elements/css/popup.css"><!-- Popup -->
+    <link rel="stylesheet" href="https://blob.contato.io/machine-files/builder/menudrop.css">
+    <!--menu-dropdown-->
+    <link rel="icon" href="/content/images/icon.png">
+    <link rel="apple-touch-icon" href="/content/images/icon.png">
+    <link rel="apple-touch-icon" href="/content/images/icon.png" sizes="72x72">
+    <link rel="apple-touch-icon" href="/content/images/icon.png" sizes="114x114">
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+    <!--js libs-->
+    <script src="/builder/elements/scripts/jquery-1.11.2.min.js"></script>
+    <script src="/builder/elements/scripts/html5shiv.js" defer=""></script>
+    <script src="/builder/elements/scripts/respond.min.js" defer=""></script>
+    <!--headerIncludes-->
+    <link href="https://blob.contato.io/machine-files/builder/allpages.builder.css" rel="stylesheet" type="text/css">
+    <!-- Event snippet for Visualização de página conversion page -->
+    <script>
+        gtag('event', 'conversion', { 'send_to': 'AW-854646791/XYqSCImj3fcCEIfAw5cD' });
+    </script>
+    <script id="hotmart_launcher_script">
+        (function (l, a, u, n, c, h, e, r) {
+            l['HotmartLauncherObject'] = c; l[c] = l[c] || function () {
+                (l[c].q = l[c].q || []).push(arguments)
+            }, l[c].l = 1 * new Date(); h = a.createElement(u),
+                e = a.getElementsByTagName(u)[0]; h.async = 1; h.src = n; e.parentNode.insertBefore(h, e)
+        })(window, document, 'script', '//launcher.hotmart.com/launcher.js', 'hot');
+
+        hot('account', '49d14011-de9d-3857-90c2-2cf065c65e63');
+    </script>
+</head>
+
+<body data-target=".navMenuCollapse" data-spy="scroll">
+    <!--PRELOADER-->
+    <div id="wrap">
+        <script type="text/javascript" src="/builder/elements/scripts/html5shiv.js"></script>
+        <script type="text/javascript" src="/builder/elements/scripts/respond.min.js"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&amp;display=swap"
+            rel="stylesheet">
+        <style>
+            ul {
+                margin: 0;
+                padding: 0;
+            }
+
+            ul li {
+                padding: 0;
+                margin: 0;
+                list-style: none;
+            }
+
+            img {
+                max-width: 100%;
+                height: auto;
+                border: 0;
+                outline: 0;
+            }
+
+            button,
+            input,
+            a,
+            select {
+                outline: 0 !important;
+                border: 0;
+                text-decoration: none;
+            }
+
+            a {
+                text-decoration: none;
+            }
+
+            html,
+            body {
+                background: #000;
+                color: #fff;
+                font-family: 'Open Sans', sans-serif !important;
+                text-align: left;
+            }
+
+            .jst-hours,
+            .jst-minutes,
+            .jst-seconds {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                background: #fff;
+                border-radius: 6px;
+                width: 42px;
+                height: 42px;
+                font-weight: 700;
+                font-size: 20px;
+                color: #000;
+                line-height: 1;
+                font-family: 'Open Sans', sans-serif !important;
+            }
+
+            .jst-hours span,
+            .jst-minutes span,
+            .jst-seconds span {
+                display: block;
+                width: 100%;
+                text-align: center;
+                font-size: 12px;
+                margin-top: -10px;
+                font-family: 'Open Sans', sans-serif !important;
+            }
+
+            .topo {
+                width: 100%;
+                min-height: 768px;
+                position: relative;
+                background: url(https://i.ibb.co/r2sDkHX/bg-topo.jpg);
+                background-size: cover;
+                background-position: center center;
+                display: flex;
+                align-items: flex-end;
+                justify-content: center;
+                padding: 60px 0 50px;
+            }
+
+            .counter {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                max-width: 360px;
+                position: absolute;
+                top: 20px;
+                left: 50%;
+            }
+
+            .counter.anime-init {
+                transform: translatex(-50%) !important;
+            }
+
+            .counter span.text {
+                font-size: 14px;
+                line-height: 1.4;
+                font-weight: 300;
+                width: 200px;
+                text-transform: uppercase;
+            }
+
+            .counter .timer {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                width: 160px;
+            }
+
+            .content-topo {
+                text-align: center;
+            }
+
+            .content-topo .logo {
+                max-width: 330px;
+                margin: 0 auto 50px;
+            }
+
+            .content-topo p {
+                text-align: center;
+                font: normal normal normal 20px/30px Open Sans;
+                letter-spacing: -0.75px;
+                color: #F5F8FF;
+                max-width: 430px;
+                margin: 0 auto 40px;
+            }
+
+            .bt-inscrever {
+                background: transparent linear-gradient(238deg, #DF8D8B 0%, #E863A5 100%) 0% 0% no-repeat padding-box;
+                border: 2px solid #FD598C;
+                border-radius: 31px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                font: normal normal bold 20px/25px Open Sans;
+                letter-spacing: -0.75px;
+                color: #FFFFFF;
+                text-transform: uppercase;
+                width: 410px;
+                height: 50px;
+                margin: 0 auto 30px;
+                box-shadow: 0 0 20px rgba(253, 89, 140, 0.7);
+            }
+
+            .bt-inscrever:hover {
+                color: #fff;
+                background: transparent linear-gradient(238deg, #E863A5 0%, #DF8D8B 100%) 0% 0% no-repeat padding-box;
+            }
+
+            .image-pagamento {
+                max-width: 300px;
+                margin: 0 auto 10px;
+            }
+
+            small.condicoes {
+                text-align: center;
+                font: normal normal normal 13px/20px Open Sans;
+                letter-spacing: 0px;
+                color: #FFFFFF;
+                opacity: 0.43;
+                max-width: 350px;
+                display: block;
+                margin: 0 auto 30px;
+            }
+
+            .icon-down svg {
+                fill: #fff;
+                width: 30px;
+                height: 30px;
+            }
+
+            .logo img {
+                margin-left: -20px;
+            }
+
+            .pulse {
+                animation: pulse 2s infinite;
+            }
+
+            @keyframes pulse {
+                0% {
+                    transform: scale(1);
+                }
+
+                50% {
+                    transform: scale(1.05);
+                }
+
+                100% {
+                    transform: scale(1);
+                }
+            }
+
+            .up-down {
+                animation: updown 1s infinite;
+            }
+
+            @keyframes updown {
+                0% {
+                    transform: translatey(10px);
+                }
+
+                100% {
+                    transform: translatey(0px);
+                }
+            }
+
+            .corpo {
+                padding: 140px 0 120px;
+            }
+
+            .box-texto-um {
+                position: relative;
+                background: #242424;
+                border-radius: 17px;
+                padding: 70px 40px 70px 290px;
+                margin-left: 70px;
+            }
+
+            .box-texto-um:before {
+                content: "";
+                width: 380px;
+                height: 380px;
+                background: url(https://i.ibb.co/QC4ybgP/Make-01-2-1.png);
+                background-size: 100%;
+                background-position: center center;
+                background-repeat: no-repeat;
+                position: absolute;
+                left: -85px;
+                top: -90px;
+                transform: rotate(10deg);
+            }
+
+            .box-texto-um p {
+                font: normal normal normal 16px/26px Open Sans;
+                letter-spacing: -0.27px;
+                color: #F5F8FF;
+                margin-bottom: 0;
+            }
+
+            .content-box h3 span {
+                background-clip: text;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                color: #E56E9D;
+                background-image: linear-gradient(122deg, rgb(229, 110, 157) 0%, rgb(223, 141, 139) 100%);
+                font-size: 21px;
+            }
+
+            .content-box .icon {
+                width: 100%;
+                height: 47px;
+                text-align: center;
+                margin-bottom: 20px;
+            }
+
+            .content-box .icon img {
+                width: auto;
+                height: 100%;
+                margin: auto;
+            }
+
+            .boxes .box {
+                padding: 11px;
+            }
+
+            .content-box {
+                background: #242424 0% 0% no-repeat padding-box;
+                border-radius: 16px;
+                text-align: center;
+                padding: 50px 30px 30px;
+                min-height: 295px;
+            }
+
+            .content-box p {
+                font: normal normal normal 15px/30px Open Sans;
+                letter-spacing: -0.24px;
+                color: #F5F8FF;
+            }
+
+            .boxes {
+                margin-bottom: 60px;
+            }
+
+            .modulos .modulo {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                background: #242424 0% 0% no-repeat padding-box;
+                border-radius: 10px;
+                overflow: hidden;
+                margin-bottom: 18px;
+            }
+
+            .modulos .modulo .imagem {
+                width: 28%;
+                padding-right: 20px;
+            }
+
+            .modulos .modulo .descritivo {
+                width: 45%;
+                padding-right: 50px;
+            }
+
+            .modulos .modulo .read-more {
+                width: 22%;
+                border-left: 1px solid #F5F8FF;
+                text-align: center;
+                padding: 10px 40px;
+            }
+
+            .modulos .modulo .descritivo p {
+                font: normal normal normal 15px/25px Open Sans;
+                letter-spacing: -0.21px;
+                color: #F5F8FF;
+            }
+
+            .modulos .modulo .descritivo h6 {
+                font: normal normal 600 13px/15px Open Sans;
+                letter-spacing: 0px;
+                color: #E863A5;
+                margin-bottom: 0;
+            }
+
+            .modulos .modulo .descritivo h4 {
+                font: normal normal bold 20px/27px Open Sans;
+                letter-spacing: 0px;
+                color: #F5F8FF;
+            }
+
+            .read-more small {
+                font: normal normal normal 13px/18px Open Sans;
+                letter-spacing: -0.18px;
+                color: #F5F8FF;
+                display: block;
+                margin-bottom: 20px;
+            }
+
+            a.bt-mais {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background: #181E29 0% 0% no-repeat padding-box;
+                border: 2px solid #F5F8FF;
+                border-radius: 23px;
+                height: 40px;
+                font: normal normal normal 15px/20px Open Sans;
+                letter-spacing: -0.27px;
+                color: #F5F8FF;
+                width: 140px;
+                margin: auto;
+            }
+
+            a.bt-mais span {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background: #f5f8ff;
+                border-radius: 50%;
+                width: 18px;
+                height: 18px;
+                margin-left: 10px;
+                color: #121212;
+                font-size: 18px;
+                font-weight: 600;
+            }
+
+            a.bt-mais:hover {
+                color: #fff;
+                background-image: linear-gradient(122deg, rgb(229, 110, 157) 0%, rgb(223, 141, 139) 100%);
+            }
+
+            .modulos,
+            .bonus {
+                padding: 50px 0;
+            }
+
+            .text-degrade {
+                text-align: center;
+                margin-bottom: 50px;
+            }
+
+            .text-degrade span {
+                background-image: linear-gradient(106deg, rgb(223, 141, 139) 0%, rgb(229, 110, 157) 100%);
+                background-clip: text;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                color: #E56E9D;
+                text-transform: uppercase;
+                letter-spacing: -1px;
+                font-size: 22px;
+            }
+
+            .bonus-itens {
+                display: flex;
+                flex-wrap: wrap;
+                padding: 50px 0 65px;
+                border-top: 1px solid rgba(255, 255, 255, 0.5);
+                margin-top: -20px;
+            }
+
+            .bonus-itens .item {
+                width: 33.3333%;
+                padding: 1.5%;
+            }
+
+            .bonus-itens .item h5 {
+                font: normal normal bold 19px/24px Open Sans;
+                letter-spacing: 0px;
+                color: #F5F8FF;
+                margin-top: 10px;
+            }
+
+            .beneficios ul {
+                max-width: 900px;
+                margin: 0 auto 50px;
+            }
+
+            .beneficios ul li {
+                background: #242424 0% 0% no-repeat padding-box;
+                border-radius: 12px;
+                margin-bottom: 15px;
+                font: normal normal normal 15px/20px Open Sans;
+                letter-spacing: -0;
+                height: 45px;
+                display: flex;
+                align-items: center;
+            }
+
+            .beneficios ul li img {
+                width: 30px;
+                margin: 0 40px;
+            }
+
+            .beneficios ul.bottom {
+                margin-bottom: 100px;
+            }
+
+            .depoimentos {
+                background: url(https://i.ibb.co/SJccpNC/bg-videos.jpg);
+                background-size: cover;
+                background-position: center center;
+                padding: 65px 0;
+            }
+
+            .video-depo {
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: space-between;
+            }
+
+            .video-depo .depoimento {
+                width: 30%;
+            }
+
+            .beneficios {
+                padding-top: 20px;
+            }
+
+            .boxes-price {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+
+            .boxes-price .imagem-mari {
+                width: 62%;
+                margin-right: 1%;
+                height: 600px;
+            }
+
+            .modulos .modulo .descritivo {
+                text-align: left;
+            }
+
+            .boxes-price .imagem-mari img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                border-radius: 12px;
+            }
+
+            .boxes-price .price {
+                width: 37%;
+                text-align: center;
+                background: #242424 0% 0% no-repeat padding-box;
+                border-radius: 12px;
+                padding: 90px 35px 50px;
+                min-height: 600px;
+            }
+
+            .price h4 {
+                font: normal normal 600 29px/39px Open Sans;
+                letter-spacing: 0px;
+                color: #F5F8FF;
+                text-transform: uppercase;
+                margin-bottom: 20px;
+            }
+
+            .price .text-degrade {
+                margin-bottom: 0;
+            }
+
+            .price .text-degrade span {
+                font-size: 50px;
+                line-height: 1;
+            }
+
+            .price .sub-price {
+                font: normal normal normal 20px/25px Open Sans;
+                letter-spacing: -0.75px;
+                color: #F5F8FF;
+                margin-bottom: 60px;
+                display: block;
+            }
+
+            .links {
+                margin-top: 80px;
+                position: relative;
+            }
+
+            .links a svg {
+                fill: #FFFFFF;
+                opacity: 0.5;
+                width: 22px;
+                height: 22px;
+            }
+
+            .links a:hover svg {
+                opacity: 1;
+            }
+
+            .links a {
+                padding: 0 5px;
+            }
+
+            .box-preco {
+                padding: 60px 0 50px;
+            }
+
+            .share {
+                position: absolute;
+                background: #f8f8f8;
+                border-radius: 10px;
+                padding: 3px 10px 5px;
+                left: 50%;
+                transform: translateX(-50%);
+                top: calc(100% + 10px);
+                display: none;
+            }
+
+            .share.open {
+                display: block;
+            }
+
+            .share:before {
+                content: "";
+                display: inline-block;
+                vertical-align: middle;
+                margin-right: 10px;
+                width: 0;
+                height: 0;
+                border-left: 5px solid transparent;
+                border-right: 5px solid transparent;
+                border-bottom: 5px solid #f8f8f8;
+                position: absolute;
+                top: -5px;
+                right: 40px;
+            }
+
+            .share ul {
+                display: flex;
+                align-items: center;
+            }
+
+            .share ul li a svg {
+                opacity: 1;
+            }
+
+            ul li.face svg {
+                fill: #1277EF;
+            }
+
+            ul li.twitter svg {
+                fill: #209CE9;
+            }
+
+            ul li.whats svg {
+                fill: #34af23;
+            }
+
+            ul li.linkedin svg {
+                fill: #2A69AD;
+            }
+
+            .bt-like.like svg {
+                opacity: 1;
+                fill: #E863A5;
+            }
+
+            .question h4 {
+                text-align: left;
+                font: normal normal normal 17px/20px Open Sans;
+                letter-spacing: 0px;
+                color: #FFFFFF;
+                position: relative;
+                padding-left: 30px;
+                padding-top: 14px;
+                padding-bottom: 14px;
+                margin-bottom: 0;
+                padding-right: 30px;
+            }
+
+            .question {
+                background: #242424 0% 0% no-repeat padding-box;
+                border-radius: 12px;
+                margin-bottom: 10px;
+                cursor: pointer;
+            }
+
+            .question h4:before {
+                content: "";
+                width: 25px;
+                height: 25px;
+                position: absolute;
+                right: 15px;
+                top: 50%;
+                transform: translatey(-50%);
+                background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' width='24' height='24'%3E%3Cpath fill='none' d='M0 0h24v24H0z'/%3E%3Cpath d='M12 13.172l4.95-4.95 1.414 1.414L12 16 5.636 9.636 7.05 8.222z' fill='rgba(255,255,255,1)'/%3E%3C/svg%3E");
+                background-size: 100%;
+                background-position: center center;
+                background-repeat: no-repeat;
+            }
+
+            .question.open h4:before {
+                content: "";
+                width: 25px;
+                height: 25px;
+                position: absolute;
+                right: 15px;
+                top: 50%;
+                transform: translatey(-50%);
+                background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' width='24' height='24'%3E%3Cpath fill='none' d='M0 0h24v24H0z'/%3E%3Cpath d='M12 10.828l-4.95 4.95-1.414-1.414L12 8l6.364 6.364-1.414 1.414z' fill='rgba(255,255,255,1)'/%3E%3C/svg%3E");
+                background-size: 100%;
+                background-position: center center;
+                background-repeat: no-repeat;
+            }
+
+            .question .resposta a {
+                text-decoration: none;
+                color: #EACABF;
+            }
+
+            .question .resposta {
+                max-height: 0;
+                overflow: hidden;
+                -webkit-transition: ease-in-out .3s;
+                -o-transition: ease-in-out .3s;
+                transition: ease-in-out .3s;
+                opacity: 0;
+                -webkit-transform: scale(1, .6);
+                -ms-transform: scale(1, .6);
+                transform: scale(1, .6);
+                -webkit-transform-origin: top;
+                -ms-transform-origin: top;
+                transform-origin: top;
+            }
+
+            .question.open .resposta {
+                max-height: 800px;
+                opacity: 1;
+                -webkit-transform: scale(1, 1);
+                -ms-transform: scale(1, 1);
+                transform: scale(1, 1);
+                margin-bottom: 10px;
+                padding: 5px 30px;
+            }
+
+            .question .resposta p {
+                font: normal normal normal 15px/20px Open Sans;
+                letter-spacing: 0px;
+                color: #fff;
+            }
+
+            .question .resposta a:hover {
+                color: #fff;
+            }
+
+            .faqs {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+
+            .faqs .garantia-aba {
+                width: 36%;
+                margin-right: 1%;
+                text-align: center;
+                background: #242424 0% 0% no-repeat padding-box;
+                border-radius: 12px;
+                padding: 94px 0;
+                margin-bottom: 10px;
+            }
+
+            .faqs .faq {
+                width: 63%;
+            }
+
+            .image-garantia {
+                max-width: 235px;
+                margin: 0 auto 60px;
+            }
+
+            .faqs .garantia-aba p {
+                font: normal normal normal 14px/22px Open Sans;
+                letter-spacing: -0.21px;
+                color: #F5F8FF;
+                max-width: 320px;
+                margin: 0 auto 60px;
+            }
+
+            .faqs .mari-name {
+                max-width: 260px;
+                margin: auto;
+            }
+
+            .faqs {
+                padding: 50px 0 100px;
+            }
+
+            .mariana {
+                background: linear-gradient(180deg, rgba(245, 248, 255, 1) 95%, rgba(0, 0, 0, 1) 95%);
+                padding: 100px 0 0px;
+            }
+
+            .sobre {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                border: 0.5px solid #000000;
+                border-radius: 12px;
+                padding: 80px 40px 50px;
+                position: relative;
+                background: #F5F8FF;
+            }
+
+            .sobre .sec {
+                width: 50%;
+                padding: 0 15px;
+            }
+
+            .sobre .sec p:last-child {
+                margin-bottom: 0;
+            }
+
+            .sobre .sec p {
+                font: normal normal normal 15px/28px Open Sans;
+                letter-spacing: -0.24px;
+                color: #121212;
+            }
+
+            .sobre .assinatura-mari {
+                max-width: 400px;
+                position: absolute;
+                background: #F5F8FF;
+                top: -75px;
+                padding: 0 15px;
+                left: 120px;
+            }
+
+            .aba-compra {
+                padding: 70px 0 40px;
+            }
+
+            .duvidas {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+            }
+
+            .duvidas .duvida {
+                width: 49%;
+                border: 1px solid #F5F8FF;
+                border-radius: 12px;
+                height: 170px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-bottom: 25px;
+            }
+
+            .duvida .content {
+                width: 350px;
+                max-width: 100%;
+            }
+
+            .duvida .content img {
+                width: 27px;
+                margin-bottom: 12px;
+            }
+
+            .duvida .content p {
+                font: normal normal normal 15px/22px Open Sans;
+                letter-spacing: -0.27px;
+                color: #F5F8FF;
+                margin-bottom: 0;
+            }
+
+            .duvidas .grupo-whats {
+                width: 100%;
+                background: #242424 0% 0% no-repeat padding-box;
+                border-radius: 17px;
+                text-align: center;
+                padding: 35px;
+            }
+
+            .duvidas .grupo-whats h3.text-degrade {
+                margin-bottom: 10px;
+            }
+
+            .duvidas .grupo-whats h3.text-degrade span {
+                font-size: 19px;
+                font-weight: 700;
+            }
+
+            .duvidas .grupo-whats p {
+                font: normal normal normal 16px/22px Open Sans;
+                letter-spacing: -0.27px;
+                color: #F5F8FF;
+                max-width: 370px;
+                margin: 0 auto 25px;
+            }
+
+            .grupo-whats a {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background: linear-gradient(108deg, rgba(38, 204, 100, 1) 0%, rgba(0, 175, 65, 1) 100%);
+                height: 40px;
+                border-radius: 37px;
+                width: 320px;
+                max-width: 100%;
+                margin: auto;
+                font: normal normal 600 16px/22px Open Sans;
+                letter-spacing: -0.27px;
+                color: #F5F8FF;
+            }
+
+            .grupo-whats a svg {
+                fill: #F5F8FF;
+                margin-right: 10px;
+                width: 26px;
+                height: 26px;
+            }
+
+            .grupo-whats a:hover {
+                background: #00AF41;
+                color: #F5F8FF;
+            }
+
+            .duvidas {
+                padding-bottom: 100px;
+            }
+
+            .rodape {
+                background: url(https://i.ibb.co/52BgxWZ/bg-rodape.jpg);
+                background-size: cover;
+                background-position: top center;
+                padding: 90px 0 20px;
+            }
+
+            .logo-rodape {
+                max-width: 240px;
+                margin: 0 auto 30px;
+            }
+
+            .logo-rodape img {
+                margin-left: -20px;
+            }
+
+            .rodape ul {
+                text-align: center;
+                margin-bottom: 32px;
+            }
+
+            .rodape ul li a {
+                font: normal normal 600 14px/20px Open Sans;
+                letter-spacing: -0.42px;
+                color: #FFFFFF;
+                margin-bottom: 6px;
+                display: block;
+            }
+
+            .rodape p {
+                text-align: center;
+                font: normal normal 400 13px/20px Open Sans;
+                letter-spacing: -0.36px;
+                color: #FFFFFF;
+                max-width: 1050px;
+                margin: 0 auto 20px;
+                opacity: 0.8;
+            }
+
+            .copyright {
+                text-align: center;
+                font: normal normal 400 13px/20px Open Sans;
+                letter-spacing: -0.36px;
+                color: #FFFFFF;
+                display: block;
+                opacity: 0.8;
+            }
+
+            .modal-open {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background: rgba(0, 0, 0, 0.75);
+                animation-name: fadeInOpacity;
+                animation-iteration-count: 1;
+                animation-timing-function: ease-in;
+                animation-duration: 1s;
+            }
+
+            @keyframes fadeInOpacity {
+                0% {
+                    opacity: 0;
+                }
+
+                100% {
+                    opacity: 1;
+                }
+            }
+
+            .modal-cadastro .content-modal {
+                position: relative;
+                background: #f5f5f5;
+                border-radius: 10px;
+                padding: 40px 30px;
+            }
+
+            .input-text {
+                width: 100%;
+                background: transparent;
+                border-bottom: 1px solid #ccc;
+                color: #999;
+                margin-bottom: 15px;
+                padding-left: 35px;
+                padding-right: 15px;
+                height: 40px;
+                position: relative;
+                font-size: 16px;
+            }
+
+            .modal {
+                text-align: left;
+            }
+
+            .popup form {
+                max-width: 400px;
+                padding: 0 30px;
+            }
+
+            form .bt-inscrever {
+                margin-bottom: 0;
+                margin-top: 20px;
+                font-size: 17px;
+                height: 48px;
+                width: 350px;
+                border-width: 1px;
+            }
+
+            ::-webkit-input-placeholder {
+                opacity: 1 !important;
+                color: #999 !important;
+            }
+
+            ::-moz-placeholder {
+                opacity: 1 !important;
+                color: #999 !important;
+            }
+
+            :-ms-input-placeholder {
+                opacity: 1 !important;
+                color: #999 !important;
+            }
+
+            :-moz-placeholder {
+                opacity: 1 !important;
+                color: #999 !important;
+            }
+
+            .modal-cadastro .close-cadastro,
+            .modal-video .close-video {
+                position: absolute;
+                top: -40px;
+                right: 15px;
+                cursor: pointer;
+            }
+
+            .modal-cadastro .close-cadastro svg,
+            .modal-video .close-video svg {
+                width: 32px;
+                height: 32px;
+            }
+
+            .input-text.name {
+                background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' width='24' height='24'%3E%3Cpath fill='none' d='M0 0h24v24H0z'/%3E%3Cpath d='M4 22a8 8 0 1 1 16 0H4zm8-9c-3.315 0-6-2.685-6-6s2.685-6 6-6 6 2.685 6 6-2.685 6-6 6z' fill='rgba(153, 153, 153,1)'/%3E%3C/svg%3E");
+                background-size: 20px;
+                background-position: left 5px center;
+                background-repeat: no-repeat;
+            }
+
+            .input-text.email {
+                background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' width='24' height='24'%3E%3Cpath fill='none' d='M0 0h24v24H0z'/%3E%3Cpath d='M3 3h18a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm9.06 8.683L5.648 6.238 4.353 7.762l7.72 6.555 7.581-6.56-1.308-1.513-6.285 5.439z' fill='rgba(153, 153, 153,1)'/%3E%3C/svg%3E");
+                background-size: 20px;
+                background-position: left 5px center;
+                background-repeat: no-repeat;
+            }
+
+            .input-text.telefone {
+                background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' width='24' height='24'%3E%3Cpath fill='none' d='M0 0h24v24H0z'/%3E%3Cpath d='M21 16.42v3.536a1 1 0 0 1-.93.998c-.437.03-.794.046-1.07.046-8.837 0-16-7.163-16-16 0-.276.015-.633.046-1.07A1 1 0 0 1 4.044 3H7.58a.5.5 0 0 1 .498.45c.023.23.044.413.064.552A13.901 13.901 0 0 0 9.35 8.003c.095.2.033.439-.147.567l-2.158 1.542a13.047 13.047 0 0 0 6.844 6.844l1.54-2.154a.462.462 0 0 1 .573-.149 13.901 13.901 0 0 0 4 1.205c.139.02.322.042.55.064a.5.5 0 0 1 .449.498z' fill='rgba(153, 153, 153,1)'/%3E%3C/svg%3E");
+                background-size: 20px;
+                background-position: left 5px center;
+                background-repeat: no-repeat;
+            }
+
+            .modal-termos.modal-open .content-modal,
+            .modal-politica.modal-open .content-modal {
+                width: 800px;
+                background: #fff;
+                border-radius: 20px;
+                padding: 50px 30px 30px;
+                position: relative;
+                max-width: 95%;
+                border: 1px solid #fff;
+                max-height: 90%;
+                overflow: auto;
+                overflow-x: hidden;
+                font-size: 16px;
+                letter-spacing: 0px;
+                color: #272727;
+                text-align: left !important;
+                line-height: 22px;
+            }
+
+            .modal-termos.modal-open .content-modal .close-termos,
+            .modal-politica.modal-open .content-modal .close-politica {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 45px;
+                height: 45px;
+                position: absolute;
+                top: 20px;
+                right: 20px;
+                z-index: 2;
+                cursor: pointer;
+            }
+
+            .modal-open .content-modal .close-termos svg,
+            .modal-open .content-modal .close-politica svg {
+                width: 32px;
+                height: 32px;
+                fill: #000;
+            }
+
+            .modal-termos,
+            .modal-politica {
+                height: 100vh;
+            }
+
+            .title-modal {
+                font: normal normal 700 35px/40px Karla;
+                letter-spacing: -2.3px;
+                color: #E863A5;
+                margin-bottom: 20px;
+            }
+
+            .modal-video .content-modal {
+                width: 750px;
+                position: relative;
+                height: 430px;
+                max-width: 95%;
+            }
+
+            .videos-aulas {
+                display: flex;
+                flex-wrap: wrap;
+                border-top: 1px solid rgba(255, 255, 255, 0.6);
+                border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+                padding: 40px 0 20px;
+                margin-bottom: 35px;
+            }
+
+            .videos-aulas .aula {
+                width: 33.3333%;
+                padding: 1% 1.5%;
+            }
+
+            .content-modal-modulo {
+                background: #242424 0% 0% no-repeat padding-box;
+                border-radius: 20px;
+                position: relative;
+                max-width: 1000px;
+                padding: 55px 40px 40px;
+                max-height: 90%;
+                overflow-y: auto;
+                overflow-x: hidden;
+            }
+
+            .content-modal-modulo .cabecalho {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding-bottom: 10px;
+            }
+
+            .content-modal-modulo .cabecalho .bt-close-modal {
+                cursor: pointer;
+            }
+
+            .content-modal-modulo .cabecalho .bt-close-modal svg {
+                width: 32px;
+                height: 32px;
+            }
+
+            .content-modal-modulo .cabecalho .bt-close-modal:hover svg {
+                fill: #E863A5 !important;
+            }
+
+            .content-modal-modulo .cabecalho h6,
+            .material h6 {
+                font: normal normal 600 13px/15px Open Sans;
+                letter-spacing: 0px;
+                color: #E863A5;
+                margin-bottom: 0;
+            }
+
+            .material h5 {
+                font: normal normal bold 14px/20px Open Sans;
+                letter-spacing: 0px;
+                color: #F5F8FF;
+            }
+
+            .content-modal-modulo .cabecalho h4 {
+                font: normal normal bold 20px/27px Open Sans;
+                letter-spacing: 0px;
+                color: #F5F8FF;
+            }
+
+            .aula h5 {
+                font: normal normal normal 16px/22px Open Sans;
+                letter-spacing: 0px;
+                color: #F5F8FF;
+                text-align: center;
+                margin-top: 5px;
+            }
+
+            .js .anime {
+                opacity: 0;
+                transform: translate3D(0px, 80px, 0px);
+            }
+
+            .js .anime-right {
+                opacity: 0;
+                transform: translate3D(80px, 0px, 0px);
+            }
+
+            .js .anime-left {
+                opacity: 0;
+                transform: translate3D(-80px, 0px, 0px);
+            }
+
+            .js .anime-init {
+                opacity: 1;
+                transform: translate3D(0px, 0px, 0px);
+                transition: 1.5s all ease;
+            }
+
+            .js .anime-two.anime-init {
+                opacity: 1;
+                transform: translate3D(0px, 0px, 0px);
+                transition: 2s all ease;
+            }
+
+            .js .anime-tres.anime-init {
+                opacity: 1;
+                transform: translate3D(0px, 0px, 0px);
+                transition: 2.5s all ease;
+            }
+
+            @media(max-width:992px) {
+                .counter span.text {
+                    font-size: 13px;
+                    width: 180px;
+                }
+
+                .counter .timer {
+                    width: 140px;
+                }
+
+                .jst-hours,
+                .jst-minutes,
+                .jst-seconds {
+                    width: 38px;
+                    height: 38px;
+                    font-size: 18px;
+                }
+
+                .jst-hours span,
+                .jst-minutes span,
+                .jst-seconds span {
+                    font-size: 10px;
+                }
+
+                .content-topo .logo {
+                    max-width: 270px;
+                }
+
+                .content-topo p {
+                    text-align: center;
+                    font: normal normal normal 18px/26px Open Sans;
+                }
+
+                .bt-inscrever {
+                    font: normal normal bold 17px/22px Open Sans;
+                    max-width: 90%;
+                }
+
+                .topo {
+                    width: 100%;
+                    min-height: 100vh;
+                }
+
+                .box-texto-um {
+                    border-radius: 14px;
+                    padding: 225px 20px 50px 20px;
+                    margin-left: 0;
+                }
+
+                .box-texto-um::before {
+                    content: "";
+                    width: 310px;
+                    height: 310px;
+                    left: 50%;
+                    top: -60px;
+                    transform: rotate(10deg) translatex(-50%);
+                }
+
+                .box-texto-um p {
+                    text-align: center;
+                }
+
+                .boxes .box {
+                    padding: 7px;
+                }
+
+                .content-box {
+                    border-radius: 12px;
+                    padding: 50px 20px 20px;
+                    min-height: 295px;
+                }
+
+                .content-box h3 span {
+                    font-size: 19px;
+                }
+
+                .content-box p {
+                    font: normal normal normal 15px/25px Open Sans;
+                }
+
+                .slick-dots {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin: 15px 0 0;
+                }
+
+                .slick-dots li button {
+                    font-size: 0;
+                    width: 11px;
+                    height: 11px;
+                    border-radius: 50%;
+                    margin: 0 4px;
+                    background: #f8f5ff;
+                }
+
+                .slick-dots li.slick-active button {
+                    background: #E863A5;
+                    width: 20px;
+                    border-radius: 10px;
+                }
+
+                .text-degrade span {
+                    font-size: 20px;
+                }
+
+                .modulos .modulo {
+                    flex-wrap: wrap;
+                    max-width: 350px;
+                    margin: 0 auto 20px;
+                }
+
+                .modulos .modulo .imagem {
+                    width: 100%;
+                    padding-right: 0;
+                    margin-bottom: 15px;
+                }
+
+                .modulos .modulo .descritivo {
+                    width: 100%;
+                    padding: 0 25px;
+                    margin-bottom: 15px;
+                }
+
+                .modulos .modulo .read-more {
+                    width: 100%;
+                    border-top: 1px solid #F5F8FF;
+                    text-align: center;
+                    padding: 10px 35px;
+                    border-left: 0;
+                    max-width: 84%;
+                    margin: 0 auto 20px;
+                }
+
+                .bonus-itens .item {
+                    width: 100%;
+                    padding: 0% 1.5% 5%;
+                    max-width: 330px;
+                    margin: auto;
+                }
+
+                .bonus-itens .item h5 {
+                    font: normal normal bold 18px/22px Open Sans;
+                }
+
+                .beneficios ul li img {
+                    width: 30px;
+                    margin: 0 20px;
+                }
+
+                .beneficios ul li {
+                    height: 50px;
+                    font: normal normal normal 14px/18px Open Sans;
+                    padding-right: 15px;
+                }
+
+                .video-depo .depoimento {
+                    width: 100%;
+                    max-width: 330px;
+                    margin: 0 auto 20px;
+                }
+
+                .boxes-price {
+                    flex-wrap: wrap;
+                    flex-direction: column-reverse;
+                }
+
+                .boxes-price .imagem-mari {
+                    width: 100%;
+                    margin-right: 0;
+                    height: auto;
+                    max-width: 460px;
+                }
+
+                .boxes-price .price {
+                    width: 100%;
+                    border-radius: 12px;
+                    padding: 50px 20px 55px;
+                    min-height: 560px;
+                    max-width: 460px;
+                    margin: 0 auto 20px;
+                }
+
+                .price .bt-inscrever {
+                    max-width: 100%;
+                }
+
+                .price .text-degrade span {
+                    font-size: 45px;
+                }
+
+                .price .text-degrade {
+                    margin-bottom: 5px;
+                }
+
+                .faqs {
+                    padding: 20px 0 70px;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                }
+
+                .faqs .garantia-aba {
+                    width: 100%;
+                    margin-right: 0;
+                    border-radius: 12px;
+                    padding: 45px 0;
+                    margin-bottom: 20px;
+                    max-width: 460px;
+                }
+
+                .faqs .faq {
+                    width: 100%;
+                    max-width: 460px;
+                }
+
+                .sobre {
+                    flex-wrap: wrap;
+                    padding: 40px 20px 35px;
+                    flex-direction: column-reverse;
+                }
+
+                .sobre .assinatura-mari {
+                    max-width: 280px;
+                    position: absolute;
+                    background: #F5F8FF;
+                    top: -50px;
+                    padding: 0 15px;
+                    left: 45px;
+                }
+
+                .sobre .sec {
+                    width: 100%;
+                    padding: 15px 0;
+                }
+
+                .duvidas .duvida {
+                    width: 100%;
+                    margin-bottom: 15px;
+                    padding: 0 40px;
+                }
+
+                .content-modal-modulo {
+                    width: 95%;
+                }
+
+                .videos-aulas .aula {
+                    width: 100%;
+                    max-width: 330px;
+                    margin: auto;
+                }
+
+                .modal-cadastro .content-modal {
+                    padding: 40px 10px;
+                    max-width: 95%;
+                }
+
+                .popup form {
+                    max-width: 400px;
+                    padding: 0 15px;
+                }
+
+                form .bt-inscrever {
+                    width: 360px;
+                    max-width: 100%;
+                }
+
+                .modal-video .content-modal {
+                    width: 750px;
+                    position: relative;
+                    height: 300px;
+                    max-width: 95%;
+                }
+
+                .title-modal {
+                    font: normal normal 700 25px/30px Open Sans;
+                    letter-spacing: -2.3px;
+                }
+
+                .modal-termos.modal-open .content-modal,
+                .modal-politica.modal-open .content-modal {
+                    font-size: 15px;
+                }
+
+                .topo {
+                    align-items: center;
+                    padding: 85px 0 50px;
+                    background: url(https://i.ibb.co/qsRMfYV/mobile-2.jpg);
+                    background-size: cover;
+                    background-position: center center;
+                }
+
+            }
+        </style>
+        <main class="page-venda">
+            <div class="topo">
+                <div class="counter anime"><span class="text">Está condição exclusiva irá se encerrar em:</span>
+                    <div class="timer" data-minutes-left="15"></div>
+                </div>
+                <div class="container">
+                    <div class="content-topo">
+                        <div class="logo anime anime-left"><img src="https://i.ibb.co/ZBnm1vG/logo.png"
+                                alt="Make UP Mariana Saad" title="Make UP Mariana Saad"></div>
+                        <p class="anime anime-right">O Treinamento Completo com o Passo a Passo Para Você Fazer Sozinha 
+                            a Maquiagem Natural das Celebridades de Forma Prática 
+                            em APENAS 10 Minutos.</p>
+                        <div class="botao anime"><a href="javascript:void(0)"
+                                class="bt-inscrever open-cadastro pulse">Fazer Minha Inscrição</a></div>
+                        <div class="image-pagamento anime"><img src="https://i.ibb.co/SyrpYfF/hotmart.png"
+                                alt="Formas de Pagamento" title="Formas de Pagamento"></div><small
+                            class="condicoes anime">Compra 100% segura e com Garantia de 7 dias sem burocracia.</small>
+                        <div class="icon-down up-down"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                width="24" height="24">
+                                <path fill="none" d="M0 0h24v24H0z"></path>
+                                <path d="M12 13.172l4.95-4.95 1.414 1.414L12 16 5.636 9.636 7.05 8.222z"></path>
+                            </svg></div>
+                    </div>
+                </div>
+            </div>
+            <div class="corpo">
+                <div class="container">
+                    <div class="box-texto-um anime">
+                        <p>O Curso de Maquiagem para Iniciantes é totalmente pensado para você que deseja maquiar com
+                            praticidade, seguindo um método comprovado criado por Mari Saad, seja para se automaquiar,
+                            aumentar sua autoestima e se sentir
+                            bem com si mesma ou para você que deseja ingressar no mundo da maquiagem e fazer dela sua
+                            profissão. - MARI SAAD</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="boxes">
+                    <div class="box anime">
+                        <div class="content-box">
+                            <div class="icon"><img src="https://i.ibb.co/7Rn10x9/online.png" alt="100% Online"></div>
+                            <h3><span>100% Online</span></h3>
+                            <p>Curso 100% online através da plataforma Hotmart.</p>
+                        </div>
+                    </div>
+                    <div class="box anime">
+                        <div class="content-box">
+                            <div class="icon"><img src="https://i.ibb.co/WWPb15r/pagamento-seguro.png"
+                                    alt="Pagamento Seguro"></div>
+                            <h3><span>Pagamento Seguro</span></h3>
+                            <p>Ambiente seguro. Seus dados estão protegidos e sua compra é 100% segura.</p>
+                        </div>
+                    </div>
+                    <div class="box anime">
+                        <div class="content-box">
+                            <div class="icon"><img src="https://i.ibb.co/gt4N8MZ/acesso-imediato.png"
+                                    alt="Acesso Imediato"></div>
+                            <h3><span>Acesso Imediato</span></h3>
+                            <p>Seu login e senha serão enviados ao seu e-mail logo após o processamento do pagamento.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="box anime">
+                        <div class="content-box">
+                            <div class="icon"><img src="https://i.ibb.co/QNv0zzh/garantia.png" alt="7 Dias de Garantia">
+                            </div>
+                            <h3><span>7 Dias de Garantia</span></h3>
+                            <p>Você poderá pedir a devolução de 100% do seu dinheiro dentro desse prazo.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modulos">
+                <div class="container">
+                    <h3 class="text-degrade anime"><span>O que você vai encontrar nos módulos do curso:</span></h3>
+                    <div class="modulo anime">
+                        <div class="imagem"><img src="https://i.ibb.co/8g6zfJN/modulo01.png" alt="Módulo 01"></div>
+                        <div class="descritivo">
+                            <h6>Módulo 1</h6>
+                            <h4>Introdução</h4>
+                            <p>Esse é um módulo de boas vindas, falaremos profundamente da minha jornada no mundo da
+                                beleza e de alguns aprendizados e
+                                ferramentas que você deve começar a utilizar para ganhar tempo.</p>
+                        </div>
+                        <div class="read-more"><small>Clique em "ver mais e conheça todas as aulas deste
+                                módulo.</small><a href="javascript:void(0)" class="bt-mais mod01">Ver
+                                mais<span>+</span></a></div>
+                    </div>
+                    <div class="modulo anime">
+                        <div class="imagem"><img src="https://i.ibb.co/jDyXbW8/modulo02.png" alt="Módulo 02"></div>
+                        <div class="descritivo">
+                            <h6>Módulo 2</h6>
+                            <h4>Preparação de Pele</h4>
+                            <p>No módulo dois, vamos falar de preparação de pele, tudo sobre primer, texturas de bases,
+                                como descobrir o tom certo de base, como aplicar a base corretamente.</p>
+                        </div>
+                        <div class="read-more"><small>Clique em "ver mais e conheça todas as aulas deste
+                                módulo.</small><a href="javascript:void(0)" class="bt-mais mod02">Ver
+                                mais<span>+</span></a></div>
+                    </div>
+                    <div class="modulo anime">
+                        <div class="imagem"><img src="https://i.ibb.co/ZWKcVyr/modulo03.png" alt="Módulo 03"></div>
+                        <div class="descritivo">
+                            <h6>Módulo 3</h6>
+                            <h4>Corretivo</h4>
+                            <p>Aqui vamos abordar os tipos e texturas de corretivos, como e onde aplicar o corretivo e
+                                como usar o corretivo colorido.</p>
+                        </div>
+                        <div class="read-more"><small>Clique em "ver mais e conheça todas as aulas deste
+                                módulo.</small><a href="javascript:void(0)" class="bt-mais mod03">Ver
+                                mais<span>+</span></a></div>
+                    </div>
+                    <div class="modulo anime">
+                        <div class="imagem"><img src="https://i.ibb.co/qRbpbw0/modulo04.png" alt="Módulo 04"></div>
+                        <div class="descritivo">
+                            <h6>Módulo 4</h6>
+                            <h4>Pó Facial</h4>
+                            <p>Nesse módulo eu vou entrar em algumas questões que geram dúvidas, como o pó fácil é amigo
+                                ou inimigo da maquiagem? Como e onde eu devo usar? Qual a melhor cor?</p>
+                        </div>
+                        <div class="read-more"><small>Clique em "ver mais e conheça todas as aulas deste
+                                módulo.</small><a href="javascript:void(0)" class="bt-mais mod04">Ver
+                                mais<span>+</span></a></div>
+                    </div>
+                    <div class="modulo anime">
+                        <div class="imagem"><img src="https://i.ibb.co/jTYRSgB/modulo05.png" alt="Módulo 05"></div>
+                        <div class="descritivo">
+                            <h6>Módulo 5</h6>
+                            <h4>Contorno, Blush e Iluminador</h4>
+                            <p>Como aplicar o blush e o iluminador? Qual o melhor tom? Como fazer o contorno
+                                corretamente?
+                                Como realmente contornar o nariz? Quais produtos investir? Minhas indicações.</p>
+                        </div>
+                        <div class="read-more"><small>Clique em "ver mais e conheça todas as aulas deste
+                                módulo.</small><a href="javascript:void(0)" class="bt-mais mod05">Ver
+                                mais<span>+</span></a></div>
+                    </div>
+                    <div class="modulo anime">
+                        <div class="imagem"><img src="https://i.ibb.co/q1FJQt6/modulo06.png" alt="Módulo 06"></div>
+                        <div class="descritivo">
+                            <h6>Módulo 6</h6>
+                            <h4>Cílios Postiços</h4>
+                            <p>Máscara de cílios, máscara e como aplicar tudo sobre cílios.</p>
+                        </div>
+                        <div class="read-more"><small>Clique em "ver mais e conheça todas as aulas deste
+                                módulo.</small><a href="javascript:void(0)" class="bt-mais mod06">Ver
+                                mais<span>+</span></a></div>
+                    </div>
+                    <div class="modulo anime">
+                        <div class="imagem"><img src="https://i.ibb.co/MnXWhjq/modulo07.png" alt="Módulo 07"></div>
+                        <div class="descritivo">
+                            <h6>Módulo 7</h6>
+                            <h4>Boca</h4>
+                            <p>Como corrigir e contornar os lábios? Passo a passo para boca vermelha perfeita.</p>
+                        </div>
+                        <div class="read-more"><small>Clique em "ver mais e conheça todas as aulas deste
+                                módulo.</small><a href="javascript:void(0)" class="bt-mais mod07">Ver
+                                mais<span>+</span></a></div>
+                    </div>
+                    <div class="modulo anime">
+                        <div class="imagem"><img src="https://i.ibb.co/t244s3C/modulo08.png" alt="Módulo 08"></div>
+                        <div class="descritivo">
+                            <h6>Módulo 8</h6>
+                            <h4>Olhos</h4>
+                            <p>Formato de olhos Tipo de delineadores Como fazer o esfumado perfeito? Maquiagem colorida,
+                                como usar? Esfumado preto, dicas espaciais.</p>
+                        </div>
+                        <div class="read-more"><small>Clique em "ver mais e conheça todas as aulas deste
+                                módulo.</small><a href="javascript:void(0)" class="bt-mais mod08">Ver
+                                mais<span>+</span></a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="bonus">
+                <div class="container">
+                    <h3 class="text-degrade anime"><span>O que você vai ganhar de bônus</span></h3>
+                    <div class="bonus-itens">
+                        <div class="item anime"><img src="https://i.ibb.co/XZZ3g0t/bonus01.png" alt="Bonus Especial">
+                            <h5>Make iluminada 1</h5>
+                        </div>
+                        <div class="item anime"><img src="https://i.ibb.co/YBBNSxP/bonus02.png" alt="Bonus Especial">
+                            <h5>Make iluminada 2</h5>
+                        </div>
+                        <div class="item anime"><img src="https://i.ibb.co/P1vFgFZ/bonus03.png" alt="Bonus Especial">
+                            <h5>Como neutralizar as olheiras</h5>
+                        </div>
+                        <div class="item anime"><img src="https://i.ibb.co/NTpnVrn/bonus04.png" alt="Bonus Especial">
+                            <h5>4 Formas de make para o trabalho</h5>
+                        </div>
+                        <div class="item anime"><img src="https://i.ibb.co/k8J5q9r/bonus05.png" alt="Bonus Especial">
+                            <h5>PDF com materiais de cada make</h5>
+                        </div>
+                    </div>
+                    <div class="botao anime"><a href="javascript:void(0)" class="bt-inscrever open-cadastro pulse">Quero
+                            aprender com mari saad</a></div>
+                    <div class="image-pagamento anime"><img src="https://i.ibb.co/SyrpYfF/hotmart.png"
+                            alt="Formas de Pagamento" title="Formas de Pagamento"></div><small
+                        class="condicoes anime">Compra 100% segura! Receba seu acesso imediatamente após confirmação do
+                        pagamento.</small>
+                </div>
+            </div>
+            <div class="bonus beneficios">
+                <div class="container">
+                    <h3 class="text-degrade anime"><span>O conteúdo do curso é totalmente pensado para você que:</span>
+                    </h3>
+                    <ul>
+                        <li class="anime"><img src="https://i.ibb.co/60G0vsC/icon01.png">Está iniciando no mundo da
+                            maquiagem.</li>
+                        <li class="anime"><img src="https://i.ibb.co/x73b6dJ/icon02.png">Está com a auto estima baixa e
+                            as vezes nem tem vontade de sair de casa.</li>
+                        <li class="anime"><img src="https://i.ibb.co/THYW8LJ/icon03.png">Tem medo de se maquiar.</li>
+                        <li class="anime"><img src="https://i.ibb.co/mDBX4Mh/icon04.png">Não sabe quais produtos
+                            escolher.</li>
+                        <li class="anime"><img src="https://i.ibb.co/zQL50Wf/icon05.png">Não tem habilidades na
+                            maquiagem.</li>
+                        <li class="anime"><img src="https://i.ibb.co/dWW5r7V/icon06.png">Tem vontade de virar uma
+                            profissional na área da maquiagem.</li>
+                        <li class="anime"><img src="https://i.ibb.co/b6RfsrL/icon07.png">Quer aprender com o método de
+                            maquiagem da Mari Saad.</li>
+                    </ul>
+                    <h3 class="text-degrade anime"><span>O conteúdo desse curso irá te ajudar a:</span></h3>
+                    <ul class="bottom">
+                        <li class="anime"><img src="https://i.ibb.co/zX6H0KP/icon08.png">Desenvolver novas habilidades
+                            na auto-maquiagem.</li>
+                        <li class="anime"><img src="https://i.ibb.co/g3gbpqx/icon09.png">Se sentir mais confiante na
+                            hora de se maquiar.</li>
+                        <li class="anime"><img src="https://i.ibb.co/dWW5r7V/icon06.png">Melhorar sua autoestima.</li>
+                        <li class="anime"><img src="https://i.ibb.co/b6RfsrL/icon07.png">Desenvolver o sentimento de
+                            amor próprio.</li>
+                        <li class="anime"><img src="https://i.ibb.co/THYW8LJ/icon03.png">Se sentir mais bela e
+                            empoderada se aceitando do jeito que você é.</li>
+                        <li class="anime"><img src="https://i.ibb.co/mDBX4Mh/icon04.png">Desenvolver uma nova habilidade
+                            que pode virar sua profissão.</li>
+                        <li class="anime"><img src="https://i.ibb.co/zQL50Wf/icon05.png">Se sentir bem consiga mesma e
+                            quem sabe ajudar outras pessoas a se sentirem bem também.</li>
+                    </ul>
+                    <div class="botao anime"><a href="javascript:void(0)" class="bt-inscrever open-cadastro pulse">Quero
+                            aprender com mari saad</a></div>
+                    <div class="image-pagamento anime"><img src="https://i.ibb.co/SyrpYfF/hotmart.png"
+                            alt="Formas de Pagamento" title="Formas de Pagamento"></div><small
+                        class="condicoes anime">Compra 100% segura! Receba seu acesso imediatamente após confirmação do
+                        pagamento.</small>
+                </div>
+            </div>
+            <div class="depoimentos">
+                <div class="container">
+                    <h3 class="text-degrade anime"><span>Assista os depoimentos das alunas transformadas pelo
+                            curso</span></h3>
+                    <div class="video-depo">
+                        <div class="depoimento anime"><a href="javascript:void(0)" class="open-video"
+                                src="https://player.vimeo.com/video/607708237?h=b74d21ae33&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"><img
+                                    src="https://i.ibb.co/Npt27XH/video01.png" alt="Depoimento"></a></div>
+                        <div class="depoimento anime"><a href="javascript:void(0)" class="open-video"
+                                src="https://player.vimeo.com/video/607707100?h=1fb4677a6d&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"><img
+                                    src="https://i.ibb.co/CW4xttd/video02.png" alt="Depoimento"></a></div>
+                        <div class="depoimento anime"><a href="javascript:void(0)" class="open-video"
+                                src="https://player.vimeo.com/video/607708659?h=10aad407ba&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"><img
+                                    src="https://i.ibb.co/W2XLBYf/video03.png" alt="Depoimento"></a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="box-preco">
+                <div class="container">
+                    <h3 class="text-degrade anime"><span>Faça a sua inscrição agora e aproveite as condições
+                            exclusivas</span></h3>
+                    <div class="boxes-price">
+                        <div class="imagem-mari anime"><img src="https://i.ibb.co/25LzzBC/42342x.png"
+                                alt="Mariana Saad"></div>
+                        <div class="price anime">
+                            <h4>Investimento:</h4>
+                            <h3 class="text-degrade"><span>12x R$38,68</span></h3><span class="sub-price">ou R$397,00 à
+                                vista</span>
+                            <div class="botao"><a href="javascript:void(0)"
+                                    class="bt-inscrever open-cadastro pulse">Quero aprender com mari saad</a></div>
+                            <div class="image-pagamento"><img src="https://i.ibb.co/SyrpYfF/hotmart.png"
+                                    alt="Formas de Pagamento" title="Formas de Pagamento"></div><small
+                                class="condicoes">Compra 100% segura! Receba seu acesso imediatamente após confirmação
+                                do pagamento.</small>
+                            <div class="links"><a href="javascript:void(0)" class="bt-like"><svg
+                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                                        <path fill="none" d="M0 0H24V24H0z"></path>
+                                        <path
+                                            d="M16.5 3C19.538 3 22 5.5 22 9c0 7-7.5 11-10 12.5C9.5 20 2 16 2 9c0-3.5 2.5-6 5.5-6C9.36 3 11 4 12 5c1-1 2.64-2 4.5-2z">
+                                        </path>
+                                    </svg></a><a href="javascript:void(0)" class="bt-compartilhar"><svg
+                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                                        <path fill="none" d="M0 0h24v24H0z"></path>
+                                        <path
+                                            d="M13.576 17.271l-5.11-2.787a3.5 3.5 0 1 1 0-4.968l5.11-2.787a3.5 3.5 0 1 1 .958 1.755l-5.11 2.787a3.514 3.514 0 0 1 0 1.458l5.11 2.787a3.5 3.5 0 1 1-.958 1.755z">
+                                        </path>
+                                    </svg></a>
+                                <div class="share">
+                                    <ul class="share-sociais">
+                                        <li class="face"><a
+                                                href="https://www.facebook.com/sharer.php?u=https://cursosmarisaad.com.br/makeup3"
+                                                target="_blank"><svg xmlns="http://www.w3.org/2000/svg"
+                                                    viewBox="0 0 24 24">
+                                                    <path fill="none" d="M0 0h24v24H0z"></path>
+                                                    <path
+                                                        d="M14 13.5h2.5l1-4H14v-2c0-1.03 0-2 2-2h1.5V2.14c-.326-.043-1.557-.14-2.857-.14C11.928 2 10 3.657 10 6.7v2.8H7v4h3V22h4v-8.5z">
+                                                    </path>
+                                                </svg></a></li>
+                                        <li class="twitter"><a
+                                                href="https://twitter.com/share?url=https://cursosmarisaad.com.br/makeup3"
+                                                target="_blank"><svg xmlns="http://www.w3.org/2000/svg"
+                                                    viewBox="0 0 24 24">
+                                                    <path fill="none" d="M0 0h24v24H0z"></path>
+                                                    <path
+                                                        d="M22.162 5.656a8.384 8.384 0 0 1-2.402.658A4.196 4.196 0 0 0 21.6 4c-.82.488-1.719.83-2.656 1.015a4.182 4.182 0 0 0-7.126 3.814 11.874 11.874 0 0 1-8.62-4.37 4.168 4.168 0 0 0-.566 2.103c0 1.45.738 2.731 1.86 3.481a4.168 4.168 0 0 1-1.894-.523v.052a4.185 4.185 0 0 0 3.355 4.101 4.21 4.21 0 0 1-1.89.072A4.185 4.185 0 0 0 7.97 16.65a8.394 8.394 0 0 1-6.191 1.732 11.83 11.83 0 0 0 6.41 1.88c7.693 0 11.9-6.373 11.9-11.9 0-.18-.005-.362-.013-.54a8.496 8.496 0 0 0 2.087-2.165z">
+                                                    </path>
+                                                </svg></a></li>
+                                        <li class="whats"><a
+                                                href="https://wa.me/?text=https://cursosmarisaad.com.br/makeup2"
+                                                target="_blank"><svg xmlns="http://www.w3.org/2000/svg"
+                                                    viewBox="0 0 24 24">
+                                                    <path fill="none" d="M0 0h24v24H0z"></path>
+                                                    <path
+                                                        d="M7.253 18.494l.724.423A7.953 7.953 0 0 0 12 20a8 8 0 1 0-8-8c0 1.436.377 2.813 1.084 4.024l.422.724-.653 2.401 2.4-.655zM2.004 22l1.352-4.968A9.954 9.954 0 0 1 2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10a9.954 9.954 0 0 1-5.03-1.355L2.004 22zM8.391 7.308c.134-.01.269-.01.403-.004.054.004.108.01.162.016.159.018.334.115.393.249.298.676.588 1.357.868 2.04.062.152.025.347-.093.537a4.38 4.38 0 0 1-.263.372c-.113.145-.356.411-.356.411s-.099.118-.061.265c.014.056.06.137.102.205l.059.095c.256.427.6.86 1.02 1.268.12.116.237.235.363.346.468.413.998.75 1.57 1l.005.002c.085.037.128.057.252.11.062.026.126.049.191.066a.35.35 0 0 0 .367-.13c.724-.877.79-.934.796-.934v.002a.482.482 0 0 1 .378-.127c.06.004.121.015.177.04.531.243 1.4.622 1.4.622l.582.261c.098.047.187.158.19.265.004.067.01.175-.013.373-.032.259-.11.57-.188.733a1.155 1.155 0 0 1-.21.302 2.378 2.378 0 0 1-.33.288 3.71 3.71 0 0 1-.125.09 5.024 5.024 0 0 1-.383.22 1.99 1.99 0 0 1-.833.23c-.185.01-.37.024-.556.014-.008 0-.568-.087-.568-.087a9.448 9.448 0 0 1-3.84-2.046c-.226-.199-.435-.413-.649-.626-.89-.885-1.562-1.84-1.97-2.742A3.47 3.47 0 0 1 6.9 9.62a2.729 2.729 0 0 1 .564-1.68c.073-.094.142-.192.261-.305.127-.12.207-.184.294-.228a.961.961 0 0 1 .371-.1z">
+                                                    </path>
+                                                </svg></a></li>
+                                        <li class="linkedin"><a
+                                                href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://cursosmarisaad.com.br/makeup3"
+                                                target="_blank"><svg xmlns="http://www.w3.org/2000/svg"
+                                                    viewBox="0 0 24 24" width="24" height="24">
+                                                    <path fill="none" d="M0 0h24v24H0z"></path>
+                                                    <path
+                                                        d="M6.94 5a2 2 0 1 1-4-.002 2 2 0 0 1 4 .002zM7 8.48H3V21h4V8.48zm6.32 0H9.34V21h3.94v-6.57c0-3.66 4.77-4 4.77 0V21H22v-7.93c0-6.17-7.06-5.94-8.72-2.91l.04-1.68z">
+                                                    </path>
+                                                </svg></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="perguntas-frequentes">
+                <div class="container">
+                    <div class="faqs">
+                        <div class="garantia-aba anime">
+                            <h3 class="text-degrade"><span>Garantia</span></h3>
+                            <div class="image-garantia"><img src="https://i.ibb.co/bmskRHG/garantia-7dias.png"
+                                    alt="Garantia de 7 Dias"></div>
+                            <p>Considero tempo suficiente para que você entenda se esse treinamento vai funcionar com
+                                você. Dentro das suas expectativas e
+                                ambições. O cancelamento e o estorno é realizado automaticamente pelo próprio Hotmart.
+                            </p>
+                            <div class="mari-name"><img src="https://i.ibb.co/0QNvzF8/assinatura.png"
+                                    alt="Mariana Saad"></div>
+                        </div>
+                        <div class="faq">
+                            <div class="question anime">
+                                <h4>Quais são as formas de pagamento?</h4>
+                                <div class="resposta">
+                                    <p>Cartão de crédito, boleto (somente à vista), Pix e PayPal.</p>
+                                </div>
+                            </div>
+                            <div class="question anime">
+                                <h4>Posso parcelar no boleto?</h4>
+                                <div class="resposta">
+                                    <p>Infelizmente não, nosso parcelamento é apenas no cartão de crédito. Podendo
+                                        parcelar em até dois cartões diferentes</p>
+                                </div>
+                            </div>
+                            <div class="question anime">
+                                <h4>Quanto tempo tenho acesso a esse treinamento?</h4>
+                                <div class="resposta">
+                                    <p>O acesso à versão adquirida do treinamento é por 1 ano. Você poderá assistir às
+                                        aulas sempre que quiser. Você terá suporte do nosso time, dentro da plataforma
+                                        de estudos, por 12 meses.</p>
+                                </div>
+                            </div>
+                            <div class="question anime">
+                                <h4>Tenho suporte a dúvidas?</h4>
+                                <div class="resposta">
+                                    <p>Sim! Você poderá mandar suas dúvidas sobre o curso e ter suporte às suas dúvidas
+                                        com nosso time durante 12 meses. Dentro da plataforma de treinamento, temos um
+                                        espaço privado para te ajudar com as dúvidas que você tiver ao longo das aulas.
+                                        Você também terá acesso ao nosso GRUPO DE ALUNOS. Nele, poderá trocar ideias com
+                                        outros alunos, ajudar e ser ajudado.</p>
+                                </div>
+                            </div>
+                            <div class="question anime">
+                                <h4>As aulas são todas online?</h4>
+                                <div class="resposta">
+                                    <p>Todas as aulas do treinamento são gravadas e ficam disponíveis apenas online. Não
+                                        é possível fazer o download.</p>
+                                    <p>Importante: Pirataria é crime de violação de direito autoral e está prevista no
+                                        artigo 184, parágrafo 2° do Código Penal brasileiro.</p>
+                                </div>
+                            </div>
+                            <div class="question anime">
+                                <h4>O conteúdo é atualizado?</h4>
+                                <div class="resposta">
+                                    <p>Dentro do período de 12 meses, você receberá SEM CUSTO ADICIONAL, todas as
+                                        atualizações que o curso tiver.</p>
+                                </div>
+                            </div>
+                            <div class="question anime">
+                                <h4>Qual a carga horária?</h4>
+                                <div class="resposta">
+                                    <p>Atualmente a carga horária do curso é de 9 horas e meia. Porém, a carga horária
+                                        pode aumentar ou diminuir conforme as atualizações do curso.</p>
+                                </div>
+                            </div>
+                            <div class="question anime">
+                                <h4>O treinamento fornece certificado?</h4>
+                                <div class="resposta">
+                                    <p>Sim. Quando o aluno concluir o curso pode solicitar um certificado, que
+                                        enviaremos em arquivo digital na própria plataforma do Hotmart (em PDF).</p>
+                                </div>
+                            </div>
+                            <div class="question anime">
+                                <h4>É fornecida nota fiscal?</h4>
+                                <div class="resposta">
+                                    <p>Sim! Ela é emitida e enviada para o e-mail de cadastrado, após o vencimento da
+                                        Garantia Incondicional do treinamento, que é de 07 dias após a inscrição. Como a
+                                        emissão é automática, é muito importante o preenchimento adequado dos dados
+                                        cadastrais. IMPORTANTE: Se você precisa que a nota seja emitida em nome da
+                                        empresa, preencha os dados cadastrais com os dados da pessoa jurídica.</p>
+                                </div>
+                            </div>
+                            <div class="question anime">
+                                <h4>Como recebo os dados de acesso ao treinamento?</h4>
+                                <div class="resposta">
+                                    <p>Após a aprovação do pagamento, você receberá os dados de acesso automaticamente
+                                        no e-mail cadastrado no ato da compra. Por isso, é importante que você cadastre
+                                        um e-mail válido. Procure por um e-mail (inclusive no spam) enviado pelo Hotmart
+                                        Club e com o título: <strong>"Seu Acesso ao Curso para Iniciantes Mari
+                                            Saad".</strong></p>
+                                </div>
+                            </div>
+                            <div class="question anime">
+                                <h4>Quando terei acesso ao bônus?</h4>
+                                <div class="resposta">
+                                    <p>Eles serão entregues após o vencimento da Garantia Incondicional, que é de 07
+                                        dias após a aprovação da compra do treinamento.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mariana">
+                <div class="container">
+                    <div class="sobre">
+                        <div class="assinatura-mari anime"><img src="https://i.ibb.co/Mpkj55t/marca.png"
+                                alt="Mariana Saad"></div>
+                        <div class="imagem sec anime"><img
+                                src="https://i.ibb.co/6t5BmGz/178532665-290116382689125-588507089250560553-n-1-2x.png"
+                                alt="Mariana Saad"></div>
+                        <div class="texto sec anime">
+                            <p>Mari Saad é empresária, digital influencer, em 2018 entrou para a lista Forbes Under 30.
+                                A carreira da influenciadora digital começou com o desejo
+                                de conseguir o próprio dinheiro ainda no ensino médio e, aos poucos, a atividade foi
+                                ganhando novas proporções.</p>
+                            <p>"Eu era aquela que maquiava as amigas para as festas da escola. Como eu morava no
+                                interior, conseguia divulgar bem meu trabalho – às vezes precisava
+                                faltar à aula para dar conta da demanda. Quando chegou a época de prestar vestibular eu
+                                já estava muito envolvida com a maquiagem e acabei não sendo aprovada."</p>
+                            <p>Hoje, aos 26 anos, Mariana coleciona mais 1,77 milhões de inscritos em seu canal no
+                                YouTube, 3,6 milhões de seguidores no Instagram e quase 500 mil fãs
+                                no Facebook. Além de assinar linhas de pincéis, sombras e batons líquidos para algumas
+                                marcas, a jovem empreendedora lançou um curso para mulheres que
+                                desejam aprender a maquiar de forma prática e objetiva.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="aba-compra">
+                <div class="container">
+                    <div class="botao anime"><a href="javascript:void(0)" class="bt-inscrever open-cadastro pulse">Quero
+                            aprender com mari saad</a></div>
+                    <div class="image-pagamento anime"><img src="https://i.ibb.co/SyrpYfF/hotmart.png"
+                            alt="Formas de Pagamento" title="Formas de Pagamento"></div><small
+                        class="condicoes anime">Compra 100% segura! Receba seu acesso imediatamente após confirmação do
+                        pagamento.</small>
+                </div>
+            </div>
+            <div class="whatsapp-sec">
+                <div class="container">
+                    <div class="duvidas">
+                        <div class="duvida anime">
+                            <div class="content"><img src="https://i.ibb.co/92SwHQb/duvida01.png" alt="Dúvida">
+                                <p>Suas dúvidas, elogios e sugestões sou eu mesma que respondo na área de membros.</p>
+                            </div>
+                        </div>
+                        <div class="duvida anime">
+                            <div class="content"><img src="https://i.ibb.co/2tWsBDX/duvida02.png" alt="Dúvida">
+                                <p>Comunidade de alunos moderada, ativa e com regras que incentivam boas práticas.</p>
+                            </div>
+                        </div>
+                        <div class="grupo-whats anime">
+                            <h3 class="text-degrade"><span>Ficou alguma dúvida?</span></h3>
+                            <p>Clique no botão abaixo e tire todas as suas dúvidas com a nossa equipe no WhatsApp.</p><a
+                                href="https://wa.link/iwys0e" target="_blank"><svg xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 24 24" width="24" height="24">
+                                    <path fill="none" d="M0 0h24v24H0z"></path>
+                                    <path
+                                        d="M7.253 18.494l.724.423A7.953 7.953 0 0 0 12 20a8 8 0 1 0-8-8c0 1.436.377 2.813 1.084 4.024l.422.724-.653 2.401 2.4-.655zM2.004 22l1.352-4.968A9.954 9.954 0 0 1 2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10a9.954 9.954 0 0 1-5.03-1.355L2.004 22zM8.391 7.308c.134-.01.269-.01.403-.004.054.004.108.01.162.016.159.018.334.115.393.249.298.676.588 1.357.868 2.04.062.152.025.347-.093.537a4.38 4.38 0 0 1-.263.372c-.113.145-.356.411-.356.411s-.099.118-.061.265c.014.056.06.137.102.205l.059.095c.256.427.6.86 1.02 1.268.12.116.237.235.363.346.468.413.998.75 1.57 1l.005.002c.085.037.128.057.252.11.062.026.126.049.191.066a.35.35 0 0 0 .367-.13c.724-.877.79-.934.796-.934v.002a.482.482 0 0 1 .378-.127c.06.004.121.015.177.04.531.243 1.4.622 1.4.622l.582.261c.098.047.187.158.19.265.004.067.01.175-.013.373-.032.259-.11.57-.188.733a1.155 1.155 0 0 1-.21.302 2.378 2.378 0 0 1-.33.288 3.71 3.71 0 0 1-.125.09 5.024 5.024 0 0 1-.383.22 1.99 1.99 0 0 1-.833.23c-.185.01-.37.024-.556.014-.008 0-.568-.087-.568-.087a9.448 9.448 0 0 1-3.84-2.046c-.226-.199-.435-.413-.649-.626-.89-.885-1.562-1.84-1.97-2.742A3.47 3.47 0 0 1 6.9 9.62a2.729 2.729 0 0 1 .564-1.68c.073-.094.142-.192.261-.305.127-.12.207-.184.294-.228a.961.961 0 0 1 .371-.1z">
+                                    </path>
+                                </svg>
+                                QUERO FALAR COM A EQUIPE</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="rodape">
+                <div class="container">
+                    <div class="logo-rodape"><img src="https://i.ibb.co/ZBnm1vG/logo.png" alt="Make UP Mariana Saad"
+                            title="Make UP Mariana Saad"></div>
+                    <ul>
+                        <li><a href="javascript:void(0)" class="open-termos">Termos de Uso</a></li>
+                        <li><a href="javascript:void(0)" class="open-politica">Política de Privacidade</a></li>
+                    </ul>
+                    <p>Aviso Legal: "Nenhuma informação contida neste produto deve ser interpretada como uma afirmação
+                        da obtenção de resultados.
+                        Qualquer referência ao desempenho passado ou potencial de uma estratégia abordada no conteúdo
+                        não é, e não deve ser interpretada
+                        como uma recomendação ou como garantia de qualquer resultado específico."</p><span
+                        class="copyright">© COPYRIGHT 2021 – Cative Comunicação – Todos os direitos reservados.</span>
+                </div>
+            </div>
+            <div class="modal modal-video">
+                <div class="content-modal">
+                    <div class="close-video" src="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                            width="24" height="24">
+                            <path fill="none" d="M0 0h24v24H0z"></path>
+                            <path
+                                d="M12 10.586l4.95-4.95 1.414 1.414-4.95 4.95 4.95 4.95-1.414 1.414-4.95-4.95-4.95 4.95-1.414-1.414 4.95-4.95-4.95-4.95L7.05 5.636z"
+                                fill="#fff"></path>
+                        </svg></div><iframe src="#" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen=""
+                        style="position:absolute;top:0;left:0;width:100%;height:100%;"
+                        title="Depoimento Beatriz Forcenette" frameborder="0"></iframe>
+                </div>
+            </div>
+            <div class="modal modal-cadastro">
+                <div class="content-modal">
+                    <div class="close-cadastro"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24"
+                            height="24">
+                            <path fill="none" d="M0 0h24v24H0z"></path>
+                            <path
+                                d="M12 10.586l4.95-4.95 1.414 1.414-4.95 4.95 4.95 4.95-1.414 1.414-4.95-4.95-4.95 4.95-1.414-1.414 4.95-4.95-4.95-4.95L7.05 5.636z"
+                                fill="#fff"></path>
+                        </svg></div>
+                    <div class="popup">
+                        <form action="https://paginas.rocks/pages/index/582528" method="post"><input id="id" name="id"
+                                type="hidden" value="582528"><input id="mid" name="mid" type="hidden"
+                                value="582528"><input id="pid" name="pid" type="hidden" value="20119062"><input
+                                id="list_id" name="list_id" type="hidden" value="582528"><input id="provider"
+                                name="provider" type="hidden" value="leadlovers"><input class="input-text name"
+                                id="name" name="name" placeholder="Informe o seu nome" type="text"><input
+                                class="input-text email" id="email" name="email" placeholder="Informe o seu email"
+                                type="text"><input class="input-text telefone" id="phone" name="phone"
+                                placeholder="Informe o seu WhatsApp" type="text"><button class="bt-inscrever"
+                                type="submit">Quero aprender com a Mari Saad</button><input type="hidden" id="source"
+                                name="source" value=""><img
+                                src="https://llimages.com/redirect/redirect.aspx?A=V&amp;p=20119062&amp;m=582528"
+                                style="display: none;"></form>
+                    </div>
+                </div>
+            </div>
+            <div class="modal modal-termos">
+                <div class="content-modal">
+                    <div class="close-termos"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24"
+                            height="24">
+                            <path fill="none" d="M0 0h24v24H0z"></path>
+                            <path
+                                d="M12 10.586l4.95-4.95 1.414 1.414-4.95 4.95 4.95 4.95-1.414 1.414-4.95-4.95-4.95 4.95-1.414-1.414 4.95-4.95-4.95-4.95L7.05 5.636z"
+                                fill="#75192B"></path>
+                        </svg></div>
+                    <div class="box-termos">
+                        <h2 class="title-modal">TERMOS DE USO DA PLATAFORMA</h2>
+                        <p>A <strong>CATIVE COMUNICAÇÃO E MARKETING LTDA (CATIVE COMUNICAÇÃO)</strong>, pessoa jurídica
+                            de direito privado inscrita no CNPJ/MF sob o n.º 26.356.810/0001-79, está
+                            comprometida em manter a privacidade enquanto o usuário visitar o nosso site
+                            www.cursosmarisaad.com.br e os produtos desenvolvidos pela Cative Comunicação.</p>
+                        <p>Algumas das informações mantidas no servidor da Cative são dados que o usuário se prontifica
+                            a fornecer por meio de formulários, enquanto outras são obtidas
+                            automaticamente, ficando, desde já, estabelecido e acordado que, ao acessar o site, o
+                            usuário aceita os TERMOS DE USO DA PLATAFORMA, o CONTRATO DE PRESTAÇÃO
+                            DE SERVIÇOS, a POLÍTICA DE PRIVACIDADE e a captação automática dos seus dados. Informamos
+                            que, ao navegar e preencher o cadastro, o usuário estará
+                            automaticamente concordando com as condições previstas nos documentos acima mencionado.</p>
+                        <p><strong>1.</strong> Os termos de uso da plataforma (TERMOS) possuem finalidade de estabelecer
+                            as regras sobre o uso do provedor de aplicação
+                            (“MAKEUP”), pela Cative.</p>
+                        <p><strong>1.1.</strong> O site da Cative foi desenvolvido totalmente de acordo a legislação em
+                            vigor no Brasil, destinado à disseminação de cursos livres
+                            na modalidade online.</p>
+                        <p><strong>2.</strong> Ao navegar e explorar as funcionalidades do site, o USUÁRIO, pessoa
+                            física maior de 18 anos, ou menor entre 13 e 18 anos, representado por seu
+                            representante legal, de forma voluntária e gratuita, pode compartilhar informações pessoais
+                            para a Cative.</p>
+                        <p><strong>2.1.</strong> Ao inserir e enviar dados, o USUÁRIO está expressamente afirmando que
+                            estes são verdadeiros e corretos (principalmente idade e qualificação),
+                            que são de sua titularidade, não tendo a Cative qualquer responsabilidade pelo conteúdo
+                            inserido sob qualquer hipótese, respondendo o Usuário, civil e criminalmente,
+                            por eventuais danos que venha a causar ao APLICATIVO ou terceiros em razão do acima
+                            disposto.</p>
+                        <p><strong>3.</strong> O USUÁRIO não poderá navegar no APLICATIVO sem efetuar login;</p>
+                        <p><strong>3.1.</strong> O USUÁRIO será responsável pelos dados de acesso ao APLICATIVO e a
+                            Cative não se responsabilizará por acessos não autorizados pelo usuário.</p>
+                        <p><strong>3.2.</strong> Caso hajam dados inseridos incorretamente, estes poderão ser corrigidos
+                            pelo USUÁRIO a qualquer momento, acessando o aplicativo.</p>
+                        <p><strong>3.3.</strong> Caso o USUÁRIO queira cancelar sua conta, deve entrar em contato com o
+                            atendimento ao cliente pelo e-mail&nbsp;<a
+                                href="mailto:web@cativecomunicacao.com.br">web@cativecomunicacao.com.br</a>, ou fazê-lo
+                            na área indicada no próprio site.</p>
+                        <p><strong>3.4.</strong> Para atender exigências legais, a Cative poderá manter determinadas
+                            informações a respeito do USUÁRIO.</p>
+                        <p><strong>3.5.</strong> A Cative poderá permitir o chamado “login social”, hipótese em que
+                            alguns dados poderão ser coletados pelas redes sociais utilizadas pelo USUÁRIO.</p>
+                        <p><strong>4.</strong> A Cative obedecerá ao disposto na sua Política de Privacidade quanto ao
+                            manuseio e guarda das informações dos usuários.</p>
+                        <p><strong>4.1.</strong> O USUÁRIO tem o direito de requerer a exclusão de seus dados de nossos
+                            cadastros, de não mais ser contatado pela Cative, solicitar
+                            cópia das informações pessoais que a Cative possui sobre ele, solicitar alterações em dados
+                            cadastrais, informar sobre uso indevido de suas informações
+                            pessoais, devendo para todas essas atividades entrar em contato através do canal&nbsp;<a
+                                href="mailto:web@cativecomunicacao.com.br">web@cativecomunicacao.com.br</a>.</p>
+                        <p><strong>5.</strong> Ficam cientes, desde já, os usuários ou seus responsáveis legais, que
+                            responderão judicialmente por todo e qualquer dano causado pela prática
+                            de atos ilícitos, sem prejuízo do direito de regresso, pela Cative, no que for cabível.</p>
+                        <p><strong>6.</strong> A Cative não será responsável por problemas, falhas ou mau funcionamento
+                            técnico, de qualquer tipo, em redes de computadores, servidores ou
+                            provedores, equipamentos de computadores, hardware ou software, ou erro, interrupção,
+                            defeito, atraso ou falha em operações ou transmissões para o correto
+                            processamento do conteúdo enviado, incluindo, mas não se limitando, a transmissão imprecisa
+                            de conteúdo ou falha da Cative em recebê-las, em razão de problemas
+                            técnicos, congestionamento na internet ou no portal ligado ao aplicativo, vírus, falha de
+                            programação ou violação por terceiros.</p>
+                        <p><strong>7.</strong> Eventuais dúvidas relacionadas a este aplicativo poderão ser esclarecidas
+                            através do canal de atendimento acima informado.</p>
+                        <p><strong>8.</strong> A Cative poderá alterar os TERMOS DE USO da plataforma periodicamente,
+                            publicando no site sua versão atualizada.</p>
+                        <p><strong>9.</strong> Fica desde já eleito o Foro da Comarca da Capital do Estado de São Paulo,
+                            com exclusão de qualquer outro foro, por mais privilegiado que
+                            seja, para dirimir a respeito de quaisquer dúvidas advindas dos presentes Termos de Uso.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="modal modal-politica">
+                <div class="content-modal">
+                    <div class="close-politica"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24"
+                            height="24">
+                            <path fill="none" d="M0 0h24v24H0z"></path>
+                            <path
+                                d="M12 10.586l4.95-4.95 1.414 1.414-4.95 4.95 4.95 4.95-1.414 1.414-4.95-4.95-4.95 4.95-1.414-1.414 4.95-4.95-4.95-4.95L7.05 5.636z"
+                                fill="#75192B"></path>
+                        </svg></div>
+                    <div class="box-termos">
+                        <h2 class="title-modal">Política de Privacidade</h2>
+                        <p>Esta Política de Privacidade se aplica aos indivíduos que acessam os sites da CATIVE
+                            COMUNICAÇÃO E MARKETING LTDA., pessoa jurídica de direito privado inscrita
+                            no CNPJ/MF sob o n.º 26.356.810/0001-79 ("Cative"), que apenas visualizam o conteúdo
+                            disponível ("Visitantes"), que se registram para acessar e utilizar os
+                            serviços disponibilizados pela Cative ("Usuários Registrados") e que adquirem os serviços
+                            ("Clientes").</p>
+                        <p>Ao visitar qualquer um dos sites, os Visitantes estão concordando com os termos desta
+                            Política de Privacidade e com os Termos de Uso da Plataforma que a acompanham.</p>
+                        <p>Ao registrar-se para acessar e usar a plataforma da Cative, cada Usuário Registrado está
+                            concordando com os termos desta Política de Privacidade e com os Termos de
+                            Uso da Plataforma que a acompanham.</p>
+                        <p>Para a utilização de qualquer forma dos serviços, é obrigatório que o Usuário Registrado
+                            aceite, de forma livre e plena,
+                            a Política de Privacidade e os Termos de Uso. Isso indicará que o mesmo está ciente e de
+                            total acordo com a forma como serão utilizados os dados coletados.</p>
+                        <p><strong>I. Quais dados são coletados e sua utilização</strong></p>
+                        <p><strong>I.I. Dados dos Usuários e Aceitação dos Termos</strong></p>
+                        <p><strong>1.1.</strong> Quando o Cliente se cadastra, informa seus dados pessoais como nome,
+                            sobrenome, e-mail, telefone, CPF, endereço, entre outros, que podem
+                            ser solicitados no momento do cadastro ou posteriormente.</p>
+                        <p><strong>1.2.</strong> Serão coletados também (a) informação como a localização genérica, não
+                            específica, que deriva do endereço de IP do Usuário; (b) dados
+                            técnicos, como os computadores e outros dispositivos pelos quais você instala ou acessa os
+                            serviços; (c) o tipo de conexão de rede (por exemplo, WiFi, 3G, LTE)
+                            e o desempenho do provedor, da rede e do dispositivo; (d) o tipo do navegador e o sistema
+                            operacional; (e) idioma do navegador; (f) páginas e URLs de referência
+                            e saída; (g) data e hora; (h) tempo gasto em páginas específicas; (i) seções dos Visitantes
+                            do Sites visitadas; e (j) informações semelhantes sobre o uso do site.</p>
+                        <p><strong>1.3.</strong> Também podem ser coletadas informações oriundas de aplicativos de
+                            terceiros, caso o cadastro seja realizado por meio deles. Neste sentido,
+                            poderão ser coletadas interações com os serviços no aplicativo de terceiros, assim como
+                            informações sobre sua atividade nele disponível publicamente.</p>
+                        <p><strong>1.4.</strong> Na aquisição dos serviços, o Usuário Registrado prestará informações de
+                            cobrança para comprar os serviços. O Cliente deverá fornecer certas
+                            informações adicionais que podem incluir um número de cartão de crédito, bandeira do cartão,
+                            data de vencimento, código postal de cobrança, código de ativação e
+                            informações similares (“Informações de Cobrança”). As Informações de Cobrança são coletadas
+                            e processadas pelo nosso processador de pagamentos terceirizado
+                            que opera como nosso agente. A Cative Comunicação não obtém ou processa diretamente nenhuma
+                            informação de faturamento.</p>
+                        <p><strong>I.II. Além das Informações acima, podemos coletar ou receber as seguintes informações
+                                (“Outras Informações”):</strong></p>
+                        <p><strong>1.5.</strong> São utilizados um ou mais serviços de análise de terceiros (Como o
+                            Google Analytics) para avaliar seu uso dos Sites e dos Serviços, compilar
+                            relatórios sobre atividades (Com base na coleção de endereços IP do usuário, provedor de
+                            serviços de Internet, tipo de navegador, sistema operacional e idioma,
+                            páginas de referência e de saída e URLs, dados e hora, quantidade de tempo gasto em páginas
+                            específicas, que seções dos Sites você visita, número de links
+                            clicados no Site, termos de pesquisa e outros dados de uso similares), e analisar métricas
+                            de desempenho. Esses terceiros usam cookies e outras tecnologias
+                            para ajudar a analisar e fornecer os dados. Ao visitar o site e acessar e usar os serviços,
+                            o usuário consente no processamento de dados a seu respeito por
+                            esses provedores de análise da maneira e para os propósitos estabelecidos nesta Política de
+                            Privacidade. Para obter mais informações sobre esses terceiros,
+                            incluindo como desativar determinados tipos de coleta de dados, o usuário pode visitar o
+                            seguinte site: https://www.google.com/analytics. </p>
+                        <p><strong>1.6.</strong> São utilizados, também, um ou mais serviços de remarketing de terceiros
+                            (Incluindo o Google Adwords) para anunciar em sites de terceiros a
+                            visitantes anteriores. Esses provedores de serviços de remarketing de terceiros usam cookies
+                            para veicular anúncios com base em uma visita anterior ao site.
+                            Quaisquer dados coletados por esses provedores de serviços de remarketing de terceiros serão
+                            usados de acordo com esta Política de Privacidade e com a política
+                            de privacidade desse provedor de serviços de remarketing de terceiros. Para obter mais
+                            informações sobre esses provedores de serviços de remarketing de terceiros,
+                            incluindo como desativar determinados tipos de coleta de dados, o usuário pode:</p>
+                        <p><strong>(a)</strong> Para o Google Adwords, o usuário pode definir preferências de como o
+                            Google anuncia para usando a página Preferências de anúncio do Google
+                            e, se desejar, pode desativar a publicidade com base em interesses somente por configurações
+                            de cookies ou usar permanentemente um plug-in do navegador;</p>
+                        <p><strong>(b)</strong> A Cative pode analisar suas informações de forma agregada para operar,
+                            manter, gerenciar e melhorar o site e os serviços. Esses dados agregados
+                            podem ser compartilhados com afiliados, agentes e parceiros de negócios. Também pode ser
+                            divulgadas estatísticas de usuários agregadas para descrever os produtos
+                            da Cative e serviços a parceiros de negócios atuais e futuros e a terceiros para outras
+                            finalidades legais. Além disso, a Cative pode fornecer informações
+                            estatísticas coletivas aos parceiros para que eles entendam com que frequência as pessoas
+                            usam componentes específicos dos serviços; e</p>
+                        <p><strong>(c)</strong> Com a IU360 Marketing LTDA, que é detentora da Cative Comunicações, com
+                            outras empresas (“Parceiros”) para executar determinados serviços relacionados a negócios.
+                            Podem ser divulgadas algumas informações, tais como informações pessoais em alguns casos, a
+                            certos tipos de empresas terceirizadas, mas apenas na medida necessária para permitir que
+                            elas forneçam tais serviços, incluindo, sem limitação, monitorar e analisar atividades,
+                            operações e assistência de marketing de sites, provedor de hospedagem e processamento de
+                            pagamento. Todos esses Parceiros atuam como agentes da IU360 e Cative, realizando serviços
+                            com instrução e em nome da IU360 e Cative de acordo com contratos que exigem que os mesmos
+                            forneçam pelo menos o mesmo nível de proteção de privacidade exigido por esta Política de
+                            Privacidade e implementado pela Cative. De qualquer forma, a Cative permanece responsável se
+                            os Parceiros processarem tais informações pessoais de maneira inconsistente com a Lei Geral
+                            de Proteção de Dados, a menos que seja comprovado que a Cative não é responsável pelo evento
+                            que deu origem ao dano;</p>
+                        <p><strong>1.7.</strong> A Cative Comunicação poderá utilizar cookies e tecnologias semelhantes
+                            para fornecer e apoiar os serviços (Veja nas Informações sobre
+                            cookies, outras tecnologias e coleta de dados de terceiros).</p>
+                        <p><strong>II. Utilização das informações coletadas</strong></p>
+                        <p><strong>2.1.</strong> As informações coletadas pela Cative serão utilizadas com os seguintes
+                            fins:</p>
+                        <p><strong>(a)</strong> Permitir que o usuário acesse e utilize todas as funcionalidades do site
+                            e dos serviços da Cative;</p>
+                        <p><strong>(b)</strong> Aperfeiçoar os serviços e se comunicar com o usuário sobre assuntos
+                            pelos quais o mesmo possa ter interesse, enviando ao usuário alertas,
+                            notificações e atualizações;</p>
+                        <p><strong>(c)</strong> Sistematizar o desempenho do usuário, relacionando e cruzando dados,
+                            entre outros;</p>
+                        <p><strong>(d)</strong> Analisar o tráfego dos usuários nas aplicações;</p>
+                        <p><strong>(e)</strong> Realizar publicidade direcionada conforme seus gostos, interesses e
+                            outras informações coletadas; e</p>
+                        <p><strong>(f)</strong> Criar novos serviços, produtos e funcionalidades;&nbsp;</p>
+                        <p><strong>2.2.</strong> Eventualmente, a Cative poderá utilizar dados para finalidades não
+                            previstas nesta Política de Privacidade, mas estas estarão dentro das
+                            legítimas expectativas e dentro da finalidade do acesso ao site da Cative. O eventual uso
+                            dos dados do usuário para finalidades que não cumpram com essa
+                            prerrogativa será feito mediante autorização prévia do usuário.</p>
+                        <p><strong>III. Como as informações coletadas são compartilhadas e utilizadas</strong></p>
+                        <p><strong>3.1.</strong> As informações coletadas pela Cative poderão ser compartilhadas com os
+                            seguintes fins:</p>
+                        <p><strong>(a)</strong> Gerar dados estatísticos a partir da sistematização do desempenho dos
+                            usuários. Para tanto, os dados obtidos deverão ser tratados,
+                            analisados, agregados e anonimizados;</p>
+                        <p><strong>(b)</strong> Gerar dados individualizados a respeito do desempenho do usuário, que
+                            serão disponibilizados apenas ao próprio usuário;</p>
+                        <p><strong>(c)</strong> Com outras empresas (“Parceiros”) para executar determinados serviços
+                            relacionados a negócios. Podem ser divulgadas algumas informações,
+                            tais como informações pessoais em alguns casos, a certos tipos de empresas terceirizadas,
+                            mas apenas na medida necessária para permitir que elas forneçam tais
+                            serviços, incluindo, sem limitação, monitorar e analisar atividades, operações e assistência
+                            de marketing de sites, provedor de hospedagem e processamento de
+                            pagamento. Todos esses Parceiros atuam como agentes da Cative, realizando serviços com
+                            instrução e em nome da Cative de acordo com contratos que exigem que
+                            os mesmos forneçam pelo menos o mesmo nível de proteção de privacidade exigido por esta
+                            Política de Privacidade e implementado pela Cative. De qualquer forma,
+                            a Cative permanece responsável se os Parceiros processarem tais informações pessoais de
+                            maneira inconsistente com a Lei Geral de Proteção de Dados, a menos
+                            que seja comprovado que a Cative não é responsável pelo evento que deu origem ao dano;</p>
+                        <p><strong>(d)</strong> Definitivamente, a Cative não transfere as informações pessoais do
+                            usuário para um terceiro atuando como um controlador das informações
+                            do usuário sem antes fornecer informações sobre a identidade de tal controlador ou a
+                            natureza dos negócios deste controlador e obter consentimento do usuário.
+                            A Cative não divulgará informações pessoais confidenciais a terceiros sem primeiro obter
+                            consentimento do usuário. Este consentimento poderá ser consentido
+                            entrando em contato com web@cativecomunicacao.com.br.&nbsp;A Cative solicita um tempo
+                            estimado de 72 (Setenta e duas horas) horas para processar e retornar
+                            com uma resposta;</p>
+                        <p><strong>(e)</strong> Responder a um processo legal (Por exemplo, uma ordem judicial ou
+                            intimação), caso a Cative acredite, de boa-fé, que é necessário fazê-lo;</p>
+                        <p><strong>(f)</strong> Cumprir os requisitos da lei aplicável obrigatória;</p>
+                        <p><strong>(g)</strong> Proteger a segurança de qualquer pessoa, bem como os direitos e a
+                            propriedade da Cative, incluindo para impor os serviços e quaisquer outros
+                            termos com os quais o usuário tenha concordado;</p>
+                        <p><strong>(h)</strong> Abordar problemas de fraude, segurança ou problemas técnicos e;</p>
+                        <p><strong>(i)</strong> Outros fins, na forma e nos limites de consentimento específico e
+                            expresso correspondente.</p>
+                        <p><strong>3.2.</strong> Será fornecida a confirmação de que a Cative está processando as
+                            informações pessoais do usuário mediante solicitação para o endereço de
+                            e-mail&nbsp;web@cativecomunicacao.com.br. O usuário tem o direito de corrigir, alterar ou
+                            excluir as informações pessoais quando elas estiverem imprecisas ou
+                            tiverem sido processadas em violação a esta Política de Privacidade. A Cative solicita um
+                            tempo estimado de 72 (Setenta e duas) horas para processar e retornar
+                            com uma resposta.</p>
+                        <p><strong>3.3.</strong> Quando o usuário atualiza as informações, no entanto, muitas vezes a
+                            Cative mantém uma cópia das informações não
+                            revisadas nos registros. O usuário pode excluir sua conta da plataforma da Cative seguindo o
+                            processo de exclusão estabelecido nos serviços.
+                            Algumas informações podem permanecer nos registros da Cative depois que o usuário
+                            descontinuar a conta.</p>
+                        <p><strong>IV. Informações sobre cookies, outras tecnologias e coleta de dados de
+                                terceiros</strong></p>
+                        <p><strong>4.1.</strong> Tecnologias como cookies, identificadores de dispositivo ou outros e
+                            armazenamento local (“Cookies e tecnologias semelhantes “) são usadas
+                            para transmitir, proteger e entender produtos, serviços e anúncios, dentro e fora dos
+                            serviços.</p>
+                        <p><strong>4.2.</strong> Armazenamento local é uma tecnologia padrão da indústria que permite
+                            que um site ou aplicativo armazene e recupere dados do computador,
+                            celular ou outro dispositivo de uma pessoa. Alguns exemplos incluem dispositivos ou
+                            armazenamento local HTML5 e&nbsp;caching.</p>
+                        <p><strong>4.3.</strong> Essas tecnologias poderão ser usadas, entre outros, para:
+                            <strong>(a)</strong> permitir que a Cative mostre os conteúdos e anúncios mais
+                            relevantes para os usuários; <strong>(b)</strong> Melhorar os produtos e serviços; e
+                            <strong>(c)</strong> Ajudar a manter os serviços seguros.</p>
+                        <p><strong>4.4.</strong> É possível ao usuário gerenciar preferências de Cookies e outras
+                            tecnologias semelhantes a partir da configuração do navegador, recusando
+                            ou excluindo determinados Cookies. Isso, porém, poderá comprometer os serviços ou impedir o
+                            funcionamento de determinados elementos que integram os serviços.</p>
+                        <p><strong>V. Armazenamento das Informações</strong></p>
+                        <p><strong>5.1.</strong> A Cative, ao coletar as informações do usuário, envidará os melhores
+                            esforços para armazená-las e mantê-las seguras respeitando a legislação
+                            vigente e as tecnologias existentes. As informações do usuário prestadas para criação da
+                            conta junto à Cative são protegidas por uma senha para privacidade e
+                            segurança do usuário. Por este motivo, o usuário é responsável por criar essa senha e
+                            protegê-la, além de não a compartilhar com terceiros.</p>
+                        <p><strong>5.2.</strong> A Cative adota medidas de segurança razoáveis e apropriadas para
+                            proteger as informações pessoais do usuário contra perda, uso indevido
+                            e acesso não autorizado, divulgação, alteração e destruição, levando em conta os riscos
+                            envolvidos no processamento e a natureza de tais dados e a conformidade
+                            com as leis e regulamentações aplicáveis. Contudo, o usuário deve ter em mente que nenhuma
+                            transmissão pela internet é 100% segura ou livre de erros.
+                            A Cative Comunicação garante a total inviolabilidade dos dados, podendo ocorrer
+                            interceptações e violações dos sistemas e/ou bases de dados por pessoas não
+                            autorizadas durante o armazenamento das informações do usuário ou a partir de e-mails,
+                            podendo não ser seguros, e o usuário deve, portanto, ter um cuidado
+                            especial ao decidir quais informações serão enviadas por e-mail ou outros meios eletrônicos.
+                        </p>
+                        <p>Caso ocorram quaisquer dos eventos listados acima, a Cative não se responsabilizará pela
+                            utilização que terceiros não autorizados fizerem das informações dos usuários.</p>
+                        <p><strong>5.3.</strong> O usuário é o único responsável por manter a senha de acesso em local
+                            seguro, sendo a senha intransferível e sigilosa, e se compromete a notificar a
+                            Cative imediatamente caso identifique qualquer uso não autorizado de sua conta ou operações
+                            anormais.</p>
+                        <p><strong>5.4.</strong> A Cative possui sede no Brasil e os dados que coleta são regidos pela
+                            lei brasileira. Ao acessar ou usar os serviços da Cative ou fornecer seus dados
+                            pessoais, o usuário concorda com o registro e transferência de tais dados em território
+                            nacional.</p>
+                        <p><strong>5.5.</strong> O usuário consente de forma livre e expressa que dados e informações
+                            sejam coletados e armazenados, conforme as regras dispostas nesta Política de
+                            Privacidade, e o mesmo poderá requisitar cópia dos dados armazenados nos sistemas da Cative.
+                        </p>
+                        <p><strong>5.6.</strong> Todas os dados, informações e conteúdos sobre o usuário podem ser
+                            considerados ativos no caso de negociações em que a Cative fizer parte. Assim,
+                            os dados do usuário podem ser incluídos dentre os ativos da empresa caso esta venha a ser
+                            vendida, adquirida ou fundida com outra. Todas essas transferências estarão
+                            sujeitas aos compromissos da Cative com relação à privacidade e confidencialidade de tais
+                            informações pessoais, conforme estabelecido nesta Política de Privacidade.</p>
+                        <p><strong>VI. Exclusão das informações pelo Usuário</strong></p>
+                        <p><strong>6.1.</strong> Os dados serão armazenados pelo tempo necessário para fornecer os
+                            serviços para o usuário e nos demais casos especificados por esta Política de
+                            Privacidade.</p>
+                        <p><strong>VII. Alterações na Política de Privacidade</strong></p>
+                        <p><strong>7.1.</strong> A Cative se reserva ao direito de atualizar e alterar a Política de
+                            Privacidade periodicamente, sem necessidade de avisar o usuário a respeito.
+                            Qualquer novo recurso que aumente ou melhore o serviço, incluindo o lançamento de novas
+                            ferramentas e recursos, estará sujeito a essa Política de Privacidade. O uso
+                            continuado do serviço, após qualquer alteração, constituirá o consentimento do usuário para
+                            tais mudanças.</p>
+                        <p><strong>VIII. Lei Aplicável e Foro</strong></p>
+                        <p><strong>8.1.</strong> Este documento é regido e deve ser interpretado de acordo com as leis
+                            da República Federativa do Brasil.</p>
+                        <p><strong>8.2.</strong> Fica eleito o Foro da Capital do Estado de São Paulo como o competente
+                            para dirimir quaisquer questões porventura oriundas do presente documento,
+                            com expressa renúncia a qualquer outro, por mais privilegiado que seja.</p>
+                        <p><strong>IX. Dúvidas</strong></p>
+                        <p><strong>9.1.</strong> O usuário deverá contatar a Cative no caso de qualquer dúvida na
+                            leitura desta Política de Privacidade enviando uma mensagem explicando sua preocupação
+                            para&nbsp;web@cativecomunicacao.com.br, e a Cative responderá a respeito com a maior
+                            brevidade possível.</p>
+                        <p><strong>X. Concordância</strong></p>
+                        <p><strong>10.1.</strong> O usuário reconhece que as peculiaridades sobre coleta, utilização e
+                            compartilhamento das informações do usuário foram suficientemente descritos
+                            nesta Política de Privacidade.</p>
+                        <p><strong>10.2.</strong> O usuário, ao não apresentar qualquer dúvida ou questionamento, afirma
+                            que a Cative cumpriu devidamente com o dever de informação.</p>
+                        <p><strong>10.3.</strong> Após ler todas as condições que regulam o uso, o usuário concorda
+                            livre e expressamente com todas as disposições desta Política de Privacidade.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="modal modal-modulo modal-modulo01">
+                <div class="content-modal-modulo">
+                    <div class="cabecalho">
+                        <div class="titulos">
+                            <h6>Módulo 1</h6>
+                            <h4>Introdução</h4>
+                        </div>
+                        <div class="bt-close-modal"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                width="24" height="24">
+                                <path fill="none" d="M0 0h24v24H0z"></path>
+                                <path
+                                    d="M12 10.586l4.95-4.95 1.414 1.414-4.95 4.95 4.95 4.95-1.414 1.414-4.95-4.95-4.95 4.95-1.414-1.414 4.95-4.95-4.95-4.95L7.05 5.636z"
+                                    fill="#fff"></path>
+                            </svg></div>
+                    </div>
+                    <div class="videos-aulas">
+                        <div class="aula"><img src="https://i.ibb.co/8g6zfJN/modulo01.png" alt="Aula 01">
+                            <h5>Boas Vindas</h5>
+                        </div>
+                        <div class="aula"><img src="https://i.ibb.co/z7TzMdm/aula02.png" alt="Aula 02">
+                            <h5>Minha História</h5>
+                        </div>
+                        <div class="aula"><img src="https://i.ibb.co/PMWYRpJ/aula03.png" alt="Aula 03">
+                            <h5>Ferramentas</h5>
+                        </div>
+                    </div>
+                    <div class="material">
+                        <h6>MATERIAL DE APOIO:</h6>
+                        <h5>Ferramentas.pdf</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="modal modal-modulo modal-modulo02">
+                <div class="content-modal-modulo">
+                    <div class="cabecalho">
+                        <div class="titulos">
+                            <h6>Módulo 2</h6>
+                            <h4>Preparação de Pele</h4>
+                        </div>
+                        <div class="bt-close-modal"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                width="24" height="24">
+                                <path fill="none" d="M0 0h24v24H0z"></path>
+                                <path
+                                    d="M12 10.586l4.95-4.95 1.414 1.414-4.95 4.95 4.95 4.95-1.414 1.414-4.95-4.95-4.95 4.95-1.414-1.414 4.95-4.95-4.95-4.95L7.05 5.636z"
+                                    fill="#fff"></path>
+                            </svg></div>
+                    </div>
+                    <div class="videos-aulas">
+                        <div class="aula"><img src="https://i.ibb.co/JxJP1PT/aula01.png" alt="Aula 01">
+                            <h5>Como limpar e preparar a pele</h5>
+                        </div>
+                        <div class="aula"><img src="https://i.ibb.co/Fqk35F9/aula02.png" alt="Aula 02">
+                            <h5>Tudo sobre primer</h5>
+                        </div>
+                        <div class="aula"><img src="https://i.ibb.co/T0swNYM/aula03.png" alt="Aula 03">
+                            <h5>Texturas de base</h5>
+                        </div>
+                        <div class="aula"><img src="https://i.ibb.co/pxJnG9z/aula04.png" alt="Aula 04">
+                            <h5>Como descobrir o tom certo da base?</h5>
+                        </div>
+                        <div class="aula"><img src="https://i.ibb.co/KqvNpbB/aula05.png" alt="Aula 05">
+                            <h5>Como aplicar a base corretamente</h5>
+                        </div>
+                    </div>
+                    <div class="material">
+                        <h6>MATERIAL DE APOIO:</h6>
+                        <h5>Ferramentas.pdf</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="modal modal-modulo modal-modulo03">
+                <div class="content-modal-modulo">
+                    <div class="cabecalho">
+                        <div class="titulos">
+                            <h6>Módulo 3</h6>
+                            <h4>Corretivo</h4>
+                        </div>
+                        <div class="bt-close-modal"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                width="24" height="24">
+                                <path fill="none" d="M0 0h24v24H0z"></path>
+                                <path
+                                    d="M12 10.586l4.95-4.95 1.414 1.414-4.95 4.95 4.95 4.95-1.414 1.414-4.95-4.95-4.95 4.95-1.414-1.414 4.95-4.95-4.95-4.95L7.05 5.636z"
+                                    fill="#fff"></path>
+                            </svg></div>
+                    </div>
+                    <div class="videos-aulas">
+                        <div class="aula"><img src="https://i.ibb.co/ByFW4Fn/aula01.png" alt="Aula 01">
+                            <h5>Tipos e texturas de corretivos</h5>
+                        </div>
+                        <div class="aula"><img src="https://i.ibb.co/TW052Jf/aula02.png" alt="Aula 02">
+                            <h5>Como e onde usar o corretivo</h5>
+                        </div>
+                        <div class="aula"><img src="https://i.ibb.co/zRp0zN1/aula03.png" alt="Aula 03">
+                            <h5>Como usar o corretivo colorido</h5>
+                        </div>
+                    </div>
+                    <div class="material">
+                        <h6>MATERIAL DE APOIO:</h6>
+                        <h5>Ferramentas.pdf</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="modal modal-modulo modal-modulo04">
+                <div class="content-modal-modulo">
+                    <div class="cabecalho">
+                        <div class="titulos">
+                            <h6>Módulo 4</h6>
+                            <h4>Pó Facial</h4>
+                        </div>
+                        <div class="bt-close-modal"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                width="24" height="24">
+                                <path fill="none" d="M0 0h24v24H0z"></path>
+                                <path
+                                    d="M12 10.586l4.95-4.95 1.414 1.414-4.95 4.95 4.95 4.95-1.414 1.414-4.95-4.95-4.95 4.95-1.414-1.414 4.95-4.95-4.95-4.95L7.05 5.636z"
+                                    fill="#fff"></path>
+                            </svg></div>
+                    </div>
+                    <div class="videos-aulas">
+                        <div class="aula"><img src="https://i.ibb.co/Lvhf8TK/aula01.png" alt="Aula 01">
+                            <h5>Pó facial, amigo ou inimigo da maquiagem</h5>
+                        </div>
+                        <div class="aula"><img src="https://i.ibb.co/VvvzQMk/aula02.png" alt="Aula 02">
+                            <h5>Como e onde devo usar</h5>
+                        </div>
+                        <div class="aula"><img src="https://i.ibb.co/R2K2tC7/aula03.png" alt="Aula 03">
+                            <h5>Qual cor devo usar</h5>
+                        </div>
+                    </div>
+                    <div class="material">
+                        <h6>MATERIAL DE APOIO:</h6>
+                        <h5>Ferramentas.pdf</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="modal modal-modulo modal-modulo05">
+                <div class="content-modal-modulo">
+                    <div class="cabecalho">
+                        <div class="titulos">
+                            <h6>Módulo 5</h6>
+                            <h4>Contorno, Blush e Iluminador</h4>
+                        </div>
+                        <div class="bt-close-modal"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                width="24" height="24">
+                                <path fill="none" d="M0 0h24v24H0z"></path>
+                                <path
+                                    d="M12 10.586l4.95-4.95 1.414 1.414-4.95 4.95 4.95 4.95-1.414 1.414-4.95-4.95-4.95 4.95-1.414-1.414 4.95-4.95-4.95-4.95L7.05 5.636z"
+                                    fill="#fff"></path>
+                            </svg></div>
+                    </div>
+                    <div class="videos-aulas">
+                        <div class="aula"><img src="https://i.ibb.co/ZBXhznm/aula01.png" alt="Aula 01">
+                            <h5>Como aplicar blush e iluminador</h5>
+                        </div>
+                        <div class="aula"><img src="https://i.ibb.co/ZVwdt33/aula02.png" alt="Aula 02">
+                            <h5>Como fazer o contorno corretamente</h5>
+                        </div>
+                        <div class="aula"><img src="https://i.ibb.co/PtWR3C2/aula03.png" alt="Aula 03">
+                            <h5>Como realmente contornar o nariz</h5>
+                        </div>
+                        <div class="aula"><img src="https://i.ibb.co/6syyVFW/aula04.png" alt="Aula 04">
+                            <h5>Quais produtos investir</h5>
+                        </div>
+                    </div>
+                    <div class="material">
+                        <h6>MATERIAL DE APOIO:</h6>
+                        <h5>Ferramentas.pdf</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="modal modal-modulo modal-modulo06">
+                <div class="content-modal-modulo">
+                    <div class="cabecalho">
+                        <div class="titulos">
+                            <h6>Módulo 6</h6>
+                            <h4>Cílios Postiços</h4>
+                        </div>
+                        <div class="bt-close-modal"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                width="24" height="24">
+                                <path fill="none" d="M0 0h24v24H0z"></path>
+                                <path
+                                    d="M12 10.586l4.95-4.95 1.414 1.414-4.95 4.95 4.95 4.95-1.414 1.414-4.95-4.95-4.95 4.95-1.414-1.414 4.95-4.95-4.95-4.95L7.05 5.636z"
+                                    fill="#fff"></path>
+                            </svg></div>
+                    </div>
+                    <div class="videos-aulas">
+                        <div class="aula"><img src="https://i.ibb.co/51xRW6Y/aula01.png" alt="Aula 01">
+                            <h5>Máscaras de cílios - Tipos e como aplicar</h5>
+                        </div>
+                        <div class="aula"><img src="https://i.ibb.co/4ZkBjzf/aula02.png" alt="Aula 02">
+                            <h5>Tudo sobre cílios postiços</h5>
+                        </div>
+                    </div>
+                    <div class="material">
+                        <h6>MATERIAL DE APOIO:</h6>
+                        <h5>Ferramentas.pdf</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="modal modal-modulo modal-modulo07">
+                <div class="content-modal-modulo">
+                    <div class="cabecalho">
+                        <div class="titulos">
+                            <h6>Módulo 7</h6>
+                            <h4>Boca</h4>
+                        </div>
+                        <div class="bt-close-modal"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                width="24" height="24">
+                                <path fill="none" d="M0 0h24v24H0z"></path>
+                                <path
+                                    d="M12 10.586l4.95-4.95 1.414 1.414-4.95 4.95 4.95 4.95-1.414 1.414-4.95-4.95-4.95 4.95-1.414-1.414 4.95-4.95-4.95-4.95L7.05 5.636z"
+                                    fill="#fff"></path>
+                            </svg></div>
+                    </div>
+                    <div class="videos-aulas">
+                        <div class="aula"><img src="https://i.ibb.co/dbN1VFT/aula01.png" alt="Aula 01">
+                            <h5>Como corrigir e contornar os lábios</h5>
+                        </div>
+                        <div class="aula"><img src="https://i.ibb.co/LnTT9z4/aula02.png" alt="Aula 02">
+                            <h5>Passo a passo para a boca vermelha perfeita</h5>
+                        </div>
+                    </div>
+                    <div class="material">
+                        <h6>MATERIAL DE APOIO:</h6>
+                        <h5>Ferramentas.pdf</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="modal modal-modulo modal-modulo08">
+                <div class="content-modal-modulo">
+                    <div class="cabecalho">
+                        <div class="titulos">
+                            <h6>Módulo 8</h6>
+                            <h4>Olhos</h4>
+                        </div>
+                        <div class="bt-close-modal"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                width="24" height="24">
+                                <path fill="none" d="M0 0h24v24H0z"></path>
+                                <path
+                                    d="M12 10.586l4.95-4.95 1.414 1.414-4.95 4.95 4.95 4.95-1.414 1.414-4.95-4.95-4.95 4.95-1.414-1.414 4.95-4.95-4.95-4.95L7.05 5.636z"
+                                    fill="#fff"></path>
+                            </svg></div>
+                    </div>
+                    <div class="videos-aulas">
+                        <div class="aula"><img src="https://i.ibb.co/PZdXqtH/aula01.png" alt="Aula 01">
+                            <h5>Formatos de Olhos</h5>
+                        </div>
+                        <div class="aula"><img src="https://i.ibb.co/xqkrnHj/aula02.png" alt="Aula 02">
+                            <h5>Tipos de deliniadores</h5>
+                        </div>
+                        <div class="aula"><img src="https://i.ibb.co/hmt4wgh/aula03.png" alt="Aula 03">
+                            <h5>Como fazer o esfumado perfeito</h5>
+                        </div>
+                        <div class="aula"><img src="https://i.ibb.co/1XcXxZ5/aula04.png" alt="Aula 04">
+                            <h5>Olhos coloridos, como usar?</h5>
+                        </div>
+                        <div class="aula"><img src="https://i.ibb.co/RcwRsMW/aula05.png" alt="Aula 05">
+                            <h5>Esfumado preto, dicas especiais</h5>
+                        </div>
+                    </div>
+                    <div class="material">
+                        <h6>MATERIAL DE APOIO:</h6>
+                        <h5>Ferramentas.pdf</h5>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div><!-- /#wrap -->
+    <!-- MODALS BEGIN-->
+    <div role="dialog" tabindex="-1" aria-hidden="true" id="modalMessage" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content"><button aria-hidden="true" class="close" data-dismiss="modal">×</button>
+                <h3 class="modal-title">&nbsp;</h3>
+            </div>
+        </div>
+    </div><!-- MODALS END-->
+    <!-- JavaScript -->
+    <script src="/builder/elements/scripts/bootstrap.min.js" defer=""></script>
+    <script src="/builder/elements/scripts/jquery.validate.min.js" defer=""></script>
+    <script src="/builder/elements/scripts/smoothscroll.js" defer=""></script>
+    <script src="/builder/elements/scripts/jquery.smooth-scroll.min.js" defer=""></script>
+    <script src="/builder/elements/scripts/placeholders.jquery.min.js" defer=""></script>
+    <script src="/builder/elements/scripts/jquery.magnific-popup.min.js" defer=""></script>
+    <script src="/builder/elements/scripts/jquery.counterup.min.js" defer=""></script>
+    <script src="/builder/elements/scripts/waypoints.min.js" defer=""></script>
+    <script src="/builder/elements/scripts/video.js" defer=""></script>
+    <script src="/builder/elements/scripts/bigvideo.js" defer=""></script>
+    <script src="/builder/elements/scripts/animations/wow.min.js" defer=""></script>
+    <script src="/builder/elements/scripts/jquery.jCounter-0.1.4.js" defer=""></script>
+    <script src="/builder/elements/scripts/jquery.autogrow-textarea.js" defer=""></script>
+    <script src="/scripts/globalize/globalize.js" defer=""></script>
+    <script src="/scripts/globalize/cultures/globalize.culture.pt-BR.js" defer=""></script>
+    <script src="/builder/elements/scripts/custom.js" defer=""></script>
+    <script src="/builder/elements/scripts/popup.js" defer=""></script>
+    <script src="https://blob.contato.io/machine-files/builder/navdropdown.js" defer=""></script>
+    <!--menudropdown-->
+    <!--<script src="//blob.contato.io/machine-files/builder/exitpop.js"></script>-->
+    <!--<script src="https://blob.contato.io/machine-files/builder/pop-exit.js" defer></script>-->
+    <script src="https://blob.contato.io/machine-files/amodels/webflow.js" defer=""></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="https://3winteligenciaweb.com.br/iu360/jquery.simple.timer.js"></script>
+    <script>
+        $(".boxes").slick({
+            infinite: true,
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            centerMode: false,
+            dots: false,
+            arrows: false,
+            responsive: [
+                {
+                    breakpoint: 992,
+                    settings: {
+                        slidesToShow: 1,
+                        arrows: false,
+                        centerMode: true,
+                        dots: true,
+                    }
+                }
+            ]
+        });
+    </script>
+    <script>
+        var root = document.documentElement;
+        root.className += ' js';
+
+        function boxTop(idBox) {
+            var boxOffset = $(idBox).offset().top;
+            return boxOffset;
+        }
+
+        $(document).ready(function () {
+            var $target = $('.anime'),
+                animationClass = 'anime-init',
+                windowHeight = $(window).height(),
+                offset = windowHeight - (windowHeight / 10);
+
+            function animeScroll() {
+                var documentTop = $(document).scrollTop();
+                $target.each(function () {
+                    if (documentTop > boxTop(this) - offset) {
+                        $(this).addClass(animationClass);
+                    } else {
+                        $(this).removeClass(animationClass);
+                    }
+                });
+            }
+            animeScroll();
+
+            $(document).scroll(function () {
+                setTimeout(function () { animeScroll() }, 150);
+            });
+        });
+    </script>
+    <script>
+        $('.open-video').click(function () {
+            let src = $(this).attr('src')
+            $('.modal-video .content-modal iframe').attr('src', src);
+        });
+        $('.close-video').click(function () {
+            let src = $(this).attr('src')
+            $('.modal-video .content-modal iframe').attr('src', src);
+        });
+        $('.open-video, .close-video').click(function () {
+            $('.modal-video').toggleClass('modal-open');
+        });
+        $('.open-cadastro, .close-cadastro').click(function () {
+            $('.modal-cadastro').toggleClass('modal-open');
+        });
+        $('.open-termos, .close-termos').click(function () {
+            $('.modal-termos').toggleClass('modal-open');
+        });
+        $('.open-politica, .close-politica').click(function () {
+            $('.modal-politica').toggleClass('modal-open');
+        });
+        $('.bt-compartilhar').click(function () {
+            $('.share').toggleClass('open');
+        });
+        $('.bt-like').click(function () {
+            $(this).toggleClass('like');
+        });
+    </script>
+    <script>
+        $(function () {
+            $('.bt-mais.mod01').click(function () {
+                $('.modal-modulo01').addClass('modal-open');
+            });
+            $('.bt-mais.mod02').click(function () {
+                $('.modal-modulo02').addClass('modal-open');
+            });
+            $('.bt-mais.mod03').click(function () {
+                $('.modal-modulo03').addClass('modal-open');
+            });
+            $('.bt-mais.mod04').click(function () {
+                $('.modal-modulo04').addClass('modal-open');
+            });
+            $('.bt-mais.mod05').click(function () {
+                $('.modal-modulo05').addClass('modal-open');
+            });
+            $('.bt-mais.mod06').click(function () {
+                $('.modal-modulo06').addClass('modal-open');
+            });
+            $('.bt-mais.mod07').click(function () {
+                $('.modal-modulo07').addClass('modal-open');
+            });
+            $('.bt-mais.mod08').click(function () {
+                $('.modal-modulo08').addClass('modal-open');
+            });
+            $('.modal-modulo .bt-close-modal').click(function () {
+                $('.modal-modulo').removeClass('modal-open');
+                return false;
+            });
+        });
+        $('.question.open').click(function () {
+            $('this').removeClass('open');
+        });
+    </script>
+    <script type="text/javascript">
+        $(document).on('click', '.faq .question', function () {
+            $(this).addClass('open').siblings().removeClass('open')
+        });
+    </script>
+    <script>
+        $(function () {
+            $('.timer').startTimer({
+                loop: true,
+                loopInterval: 3
+            });
+        });
+    </script><!-- Facebook Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '436553850739254');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=436553850739254&ev=PageView&noscript=1" /></noscript>
+    <!-- End Facebook Pixel Code -->
+
+    <!-- Facebook Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '553326989041313');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=553326989041313&ev=PageView&noscript=1" /></noscript>
+    <!-- End Facebook Pixel Code -->
+    <!-- Global site tag (gtag.js) - Google Ads: 854646791 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-854646791"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'AW-854646791');
+    </script>
+</body>
+
+</html>
+
+
+<link href="/Content/carousel.v2.css" rel="stylesheet" />
+<link href="/Contents/page-advertising?v=OIjdLiP3zDbbwyGzc4HCP78v7aQq62NmROEun6odIEE1" rel="stylesheet" type="text/css"
+    async />
+<script src="/bundles/globalize?v=Z7dQo83eosj7yLn2TxGEoPKpiluP65U_S4JHNU9GjkM1" type="text/javascript" async></script>
+<script src="/bundles/page-views?v=RFS_9pcQpAX3kK36TH6nfMX6edR9IzqGFT5-MduLznc1" type="text/javascript" async></script>
+<script type="text/javascript">
+    var _pageID = parseInt('20119145');
+    var _pageType = parseInt('12');
+    var _redirectID = parseInt('0');
+    var _machineID = parseInt('582528');
+    var _chatCode = '';
+    var _leadSource = '';
+    var _leadSCK = '';
+    var _clientLang = 'pt-BR';
+    var _isTest = Boolean(parseInt('0'));
+    var _isMultiCapture = Boolean(parseInt('0'));
+    var _LGPDConsentText = '';
+    var _LGPDLinkTerms = '';
+    var _LGPDUrlTerms = '';
+    var _facebookApiConversionPixels = '';
+
+    var _cfIpCountry = '';
+    var _cfHostname = '';
+</script>
+<script src="/scripts/jquery.form.js" async></script>
+<script src="/bundles/page-capform?v=KNHAZZuHsaBypgrGEGz6ldaVigcr0IqAbNnKRPnF7Oo1" type="text/javascript"
+    async></script>
